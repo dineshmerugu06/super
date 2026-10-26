@@ -1812,7 +1812,7 @@
 	},
 	"INPUT_Config_5_Work_name": "spine",
 	"INPUT_Config_5_Work_renderOrder": 5,
-	"INPUT_Config_5_Work_script": "SpineInstancer",
+	"INPUT_Config_5_Work_script": "",
 	"INPUT_Config_5_Work_shader": "SpineShader",
 	"INPUT_Config_5_Work_sortIndex": 5,
 	"INPUT_Config_5_TreeScene_name": "rocky_soil",
@@ -3874,9 +3874,9 @@
 		0
 	],
 	"MESH_Element_5_Workscale": [
-		3.5,
-		3.5,
-		3.5
+		0,
+		0,
+		0
 	],
 	"MESH_Element_5_TreeScenescale": [
 		1,

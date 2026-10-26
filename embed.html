@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Infinian — Work backdrop</title>
+<style>
+  html,body{ margin:0; padding:0; height:100%; overflow:hidden; background:transparent; }
+  #scene{ display:block; width:100%; height:100%; }
+</style>
+</head>
+<body>
+<canvas id="scene"></canvas>
+<script type="importmap">
+{ "imports": {
+  "three": "./assets/js/vendor/three.module.js",
+  "three/addons/": "./assets/js/vendor/addons/"
+} }
+</script>
+<script type="module">
+import * as THREE from 'three';
+import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+import { RoomEnvironment } from 'three/addons/environments/RoomEnvironment.js';
+
+const canvas = document.getElementById('scene');
+const renderer = new THREE.WebGLRenderer({ canvas, antialias: true, alpha: true });
+renderer.setPixelRatio(Math.min(devicePixelRatio, 1.75));
+renderer.setSize(innerWidth, innerHeight);
+renderer.setClearColor(0x000000, 0);
+renderer.toneMapping = THREE.ACESFilmicToneMapping;
+renderer.toneMappingExposure = 1.12;
+renderer.outputColorSpace = THREE.SRGBColorSpace;
+
+const scene = new THREE.Scene();
+const pmrem = new THREE.PMREMGenerator(renderer);
+scene.environment = pmrem.fromScene(new RoomEnvironment(), 0.04).texture;
+scene.environmentIntensity = 0.5;
+
+const camera = new THREE.PerspectiveCamera(38, innerWidth / innerHeight, 0.1, 200);
+scene.add(new THREE.HemisphereLight(0xbfe3ff, 0x1a1206, 0.9));
+const key = new THREE.DirectionalLight(0xfff1da, 2.4); key.position.set(4, 7, 5); scene.add(key);
+const rim = new THREE.DirectionalLight(0x72b2d5, 1.8); rim.position.set(-6, 3, -5); scene.add(rim);
+
+const gltf = await new GLTFLoader().loadAsync('assets/models/infinian.glb');
+scene.add(gltf.scene);
+
+// Pose BEFORE measuring: this model's animated size is ~39x its bind pose.
+const mixer = new THREE.AnimationMixer(gltf.scene);
+const idle = gltf.animations.find(a => /CombatIdle/i.test(a.name)) || gltf.animations[0];
+mixer.clipAction(idle).play();
+mixer.setTime(idle.duration * 0.3);
+gltf.scene.updateMatrixWorld(true);
+
+const box = new THREE.Box3().setFromObject(gltf.scene);
+const center = box.getCenter(new THREE.Vector3());
+const radius = box.getSize(new THREE.Vector3()).length() / 2;
+// Full figure in frame with breathing room; camera a touch low so he
+// looms slightly — a presiding statue, not a product shot.
+camera.position.set(center.x + radius * 0.38, center.y - radius * 0.04, center.z + radius * 1.92);
+camera.lookAt(center.x, center.y + radius * 0.05, center.z);
+
+const PRM = matchMedia('(prefers-reduced-motion: reduce)').matches;
+const clock = new THREE.Clock();
+renderer.setAnimationLoop(() => {
+  const dt = clock.getDelta();
+  const t = clock.elapsedTime;
+  mixer.update(dt);
+  if (!PRM) {
+    // Gentle sway instead of a full spin: he stays facing the visitor,
+    // turning just enough to feel three-dimensional and alive.
+    gltf.scene.rotation.y = Math.sin(t * 0.22) * 0.45;
+    gltf.scene.position.y = Math.sin(t * 0.8) * 0.07; // faint hover-breath
+  }
+  renderer.render(scene, camera);
+});
+window.__embedReady = true;
+
+addEventListener('resize', () => {
+  camera.aspect = innerWidth / innerHeight;
+  camera.updateProjectionMatrix();
+  renderer.setSize(innerWidth, innerHeight);
+});
+</script>
+</body>
+</html>

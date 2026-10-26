@@ -40,5 +40,36 @@
 </head>
 <body>
     <noscript><p style="background: black; color: white; font-size: 20px; display: inline; font-family: Helvetica, Arial, sans-serif; padding: 10px;">Please enable javascript</p></noscript>
+<script>
+/* Infinian Work backdrop: direct-loaded animated model (embed.html) shown in
+   the spine column's place whenever the Work scene is active. */
+(function(){
+  var frame = null;
+  var css = document.createElement('style');
+  css.textContent =
+    '.infinian-frame{position:fixed;top:0;left:50%;transform:translateX(-50%);' +
+    'width:min(58vw,780px);height:100vh;border:0;z-index:2;pointer-events:none;' +
+    'background:radial-gradient(ellipse 64% 48% at 50% 40%,rgba(232,181,88,.20),rgba(232,181,88,.05) 48%,transparent 70%),' +
+    'radial-gradient(ellipse 48% 11% at 50% 90%,rgba(0,0,0,.55),transparent 70%);' +
+    'animation:infIn 1.15s cubic-bezier(.22,.8,.3,1) both;}' +
+    '@keyframes infIn{from{opacity:0;transform:translateX(-50%) scale(.982);}to{opacity:1;transform:translateX(-50%) scale(1);}}' +
+    '@media (max-width:700px){.infinian-frame{width:96vw;}}';
+  document.head.appendChild(css);
+  function isWork(){ return /(^|\/)work(\/|$)/.test(location.pathname); }
+  function sync(){
+    var on = isWork();
+    if (on && !frame) {
+      frame = document.createElement('iframe');
+      frame.src = 'embed.html';
+      frame.setAttribute('title', 'Infinian 3D');
+      frame.className = 'infinian-frame';
+      document.body.appendChild(frame);
+    }
+    if (frame) frame.style.display = on ? 'block' : 'none';
+  }
+  setInterval(sync, 400);
+  addEventListener('popstate', sync);
+})();
+</script>
 </body>
 </html>
