@@ -7,7 +7,7 @@
  "ogImage": {
   "id": "65b8039ecce4b7a6989f19c5",
   "prefix": "media",
-  "filename": "social.jpg",
+  "filename": "og-dinesh.jpg",
   "mimeType": "image/jpeg",
   "filesize": 210221,
   "width": 1200,
@@ -18,74 +18,74 @@
     "height": 105,
     "mimeType": "image/jpeg",
     "filesize": 6518,
-    "filename": "social-200x105.jpg",
-    "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/social-200x105.jpg"
+    "filename": "og-dinesh-200x105.jpg",
+    "url": "assets/images/og-dinesh.jpg"
    },
    "i400px": {
     "width": 400,
     "height": 210,
     "mimeType": "image/jpeg",
     "filesize": 23068,
-    "filename": "social-400x210.jpg",
-    "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/social-400x210.jpg"
+    "filename": "og-dinesh-400x210.jpg",
+    "url": "assets/images/og-dinesh.jpg"
    },
    "i600px": {
     "width": 600,
     "height": 315,
     "mimeType": "image/jpeg",
     "filesize": 50308,
-    "filename": "social-600x315.jpg",
-    "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/social-600x315.jpg"
+    "filename": "og-dinesh-600x315.jpg",
+    "url": "assets/images/og-dinesh.jpg"
    },
    "i1024px": {
     "width": 1024,
     "height": 538,
     "mimeType": "image/jpeg",
     "filesize": 130262,
-    "filename": "social-1024x538.jpg",
-    "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/social-1024x538.jpg"
+    "filename": "og-dinesh-1024x538.jpg",
+    "url": "assets/images/og-dinesh.jpg"
    },
    "i1280px": {
     "width": 1280,
     "height": 672,
     "mimeType": "image/jpeg",
     "filesize": 178050,
-    "filename": "social-1280x672.jpg",
-    "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/social-1280x672.jpg"
+    "filename": "og-dinesh-1280x672.jpg",
+    "url": "assets/images/og-dinesh.jpg"
    },
    "i1600px": {
     "width": 1600,
     "height": 840,
     "mimeType": "image/jpeg",
     "filesize": 246737,
-    "filename": "social-1600x840.jpg",
-    "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/social-1600x840.jpg"
+    "filename": "og-dinesh-1600x840.jpg",
+    "url": "assets/images/og-dinesh.jpg"
    },
    "i2000px": {
     "width": 2000,
     "height": 1050,
     "mimeType": "image/jpeg",
     "filesize": 335183,
-    "filename": "social-2000x1050.jpg",
-    "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/social-2000x1050.jpg"
+    "filename": "og-dinesh-2000x1050.jpg",
+    "url": "assets/images/og-dinesh.jpg"
    },
    "thumbnail": {
     "width": 400,
     "height": 300,
     "mimeType": "image/jpeg",
     "filesize": 33096,
-    "filename": "social-400x300.jpg",
-    "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/social-400x300.jpg"
+    "filename": "og-dinesh-400x300.jpg",
+    "url": "assets/images/og-dinesh.jpg"
    }
   },
   "createdAt": "2024-01-29T19:59:26.984Z",
   "updatedAt": "2024-01-29T19:59:26.984Z",
-  "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/social.jpg"
+  "url": "assets/images/og-dinesh.jpg"
  },
  "twitterImage": {
   "id": "65b8039ecce4b7a6989f19c5",
   "prefix": "media",
-  "filename": "social.jpg",
+  "filename": "og-dinesh.jpg",
   "mimeType": "image/jpeg",
   "filesize": 210221,
   "width": 1200,
@@ -96,69 +96,69 @@
     "height": 105,
     "mimeType": "image/jpeg",
     "filesize": 6518,
-    "filename": "social-200x105.jpg",
-    "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/social-200x105.jpg"
+    "filename": "og-dinesh-200x105.jpg",
+    "url": "assets/images/og-dinesh.jpg"
    },
    "i400px": {
     "width": 400,
     "height": 210,
     "mimeType": "image/jpeg",
     "filesize": 23068,
-    "filename": "social-400x210.jpg",
-    "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/social-400x210.jpg"
+    "filename": "og-dinesh-400x210.jpg",
+    "url": "assets/images/og-dinesh.jpg"
    },
    "i600px": {
     "width": 600,
     "height": 315,
     "mimeType": "image/jpeg",
     "filesize": 50308,
-    "filename": "social-600x315.jpg",
-    "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/social-600x315.jpg"
+    "filename": "og-dinesh-600x315.jpg",
+    "url": "assets/images/og-dinesh.jpg"
    },
    "i1024px": {
     "width": 1024,
     "height": 538,
     "mimeType": "image/jpeg",
     "filesize": 130262,
-    "filename": "social-1024x538.jpg",
-    "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/social-1024x538.jpg"
+    "filename": "og-dinesh-1024x538.jpg",
+    "url": "assets/images/og-dinesh.jpg"
    },
    "i1280px": {
     "width": 1280,
     "height": 672,
     "mimeType": "image/jpeg",
     "filesize": 178050,
-    "filename": "social-1280x672.jpg",
-    "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/social-1280x672.jpg"
+    "filename": "og-dinesh-1280x672.jpg",
+    "url": "assets/images/og-dinesh.jpg"
    },
    "i1600px": {
     "width": 1600,
     "height": 840,
     "mimeType": "image/jpeg",
     "filesize": 246737,
-    "filename": "social-1600x840.jpg",
-    "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/social-1600x840.jpg"
+    "filename": "og-dinesh-1600x840.jpg",
+    "url": "assets/images/og-dinesh.jpg"
    },
    "i2000px": {
     "width": 2000,
     "height": 1050,
     "mimeType": "image/jpeg",
     "filesize": 335183,
-    "filename": "social-2000x1050.jpg",
-    "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/social-2000x1050.jpg"
+    "filename": "og-dinesh-2000x1050.jpg",
+    "url": "assets/images/og-dinesh.jpg"
    },
    "thumbnail": {
     "width": 400,
     "height": 300,
     "mimeType": "image/jpeg",
     "filesize": 33096,
-    "filename": "social-400x300.jpg",
-    "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/social-400x300.jpg"
+    "filename": "og-dinesh-400x300.jpg",
+    "url": "assets/images/og-dinesh.jpg"
    }
   },
   "createdAt": "2024-01-29T19:59:26.984Z",
   "updatedAt": "2024-01-29T19:59:26.984Z",
-  "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/social.jpg"
+  "url": "assets/images/og-dinesh.jpg"
  },
  "id": "654d21bf6dacdff93f2d88ce"
 }

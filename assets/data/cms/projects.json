@@ -9,7 +9,7 @@
   "projectLogo": {
    "id": "65a8418dcf624f70f8ffe549",
    "prefix": "media",
-   "filename": "wsj.jpg",
+   "filename": "og-dinesh.jpg",
    "mimeType": "image/jpeg",
    "filesize": 11074,
    "width": 401,
@@ -20,56 +20,56 @@
      "height": 100,
      "mimeType": "image/jpeg",
      "filesize": 1904,
-     "filename": "wsj-200x100.jpg",
-     "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/wsj-200x100.jpg"
+     "filename": "og-dinesh-200x100.jpg",
+     "url": "assets/images/og-dinesh.jpg"
     },
     "i400px": {
      "width": 400,
      "height": 200,
      "mimeType": "image/jpeg",
      "filesize": 4294,
-     "filename": "wsj-400x200.jpg",
-     "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/wsj-400x200.jpg"
+     "filename": "og-dinesh-400x200.jpg",
+     "url": "assets/images/og-dinesh.jpg"
     },
     "i600px": {
      "width": 600,
      "height": 299,
      "mimeType": "image/jpeg",
      "filesize": 6638,
-     "filename": "wsj-600x299.jpg",
-     "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/wsj-600x299.jpg"
+     "filename": "og-dinesh-600x299.jpg",
+     "url": "assets/images/og-dinesh.jpg"
     },
     "i1024px": {
      "width": 1024,
      "height": 511,
      "mimeType": "image/jpeg",
      "filesize": 11788,
-     "filename": "wsj-1024x511.jpg",
-     "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/wsj-1024x511.jpg"
+     "filename": "og-dinesh-1024x511.jpg",
+     "url": "assets/images/og-dinesh.jpg"
     },
     "i1600px": {
      "width": 1600,
      "height": 798,
      "mimeType": "image/jpeg",
      "filesize": 20630,
-     "filename": "wsj-1600x798.jpg",
-     "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/wsj-1600x798.jpg"
+     "filename": "og-dinesh-1600x798.jpg",
+     "url": "assets/images/og-dinesh.jpg"
     },
     "i2000px": {
      "width": 2000,
      "height": 998,
      "mimeType": "image/jpeg",
      "filesize": 28563,
-     "filename": "wsj-2000x998.jpg",
-     "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/wsj-2000x998.jpg"
+     "filename": "og-dinesh-2000x998.jpg",
+     "url": "assets/images/og-dinesh.jpg"
     },
     "thumbnail": {
      "width": 400,
      "height": 300,
      "mimeType": "image/jpeg",
      "filesize": 5540,
-     "filename": "wsj-400x300.jpg",
-     "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/wsj-400x300.jpg"
+     "filename": "og-dinesh-400x300.jpg",
+     "url": "assets/images/og-dinesh.jpg"
     },
     "i1280px": {
      "url": null
@@ -77,13 +77,13 @@
    },
    "createdAt": "2024-01-17T21:07:25.737Z",
    "updatedAt": "2024-01-17T21:07:25.737Z",
-   "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/wsj.jpg"
+   "url": "assets/images/og-dinesh.jpg"
   },
   "video": {
    "id": "65ac72f15d1db2becbe7c8ae",
-   "thumbnail": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/sustainable_1_1.jpg",
+   "thumbnail": "assets/images/og-dinesh.jpg",
    "prefix": "media",
-   "filename": "sustainable_1_1.mp4",
+   "filename": "stock-blue.mp4",
    "mimeType": "video/mp4",
    "filesize": 7567027,
    "sizes": {
@@ -114,7 +114,7 @@
    },
    "createdAt": "2024-01-21T01:27:13.505Z",
    "updatedAt": "2024-01-21T01:27:13.505Z",
-   "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/sustainable_1_1.mp4"
+   "url": "assets/video/stock-blue.mp4"
   },
   "uiColor": "4aabcc",
   "tags": "AI Agents",
@@ -131,9 +131,9 @@
   "completionDate": "2025-01-01T12:00:00.000Z",
   "video": {
    "id": "65a57ed779593404072c8429",
-   "thumbnail": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/prometheus (720p).jpg",
+   "thumbnail": "assets/images/og-dinesh.jpg",
    "prefix": "media",
-   "filename": "prometheus (720p).mp4",
+   "filename": "stock-blue.mp4",
    "mimeType": "video/mp4",
    "filesize": 8043251,
    "sizes": {
@@ -164,7 +164,7 @@
    },
    "createdAt": "2024-01-15T18:52:07.398Z",
    "updatedAt": "2024-01-15T18:52:07.398Z",
-   "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/prometheus (720p).mp4"
+   "url": "assets/video/stock-blue.mp4"
   },
   "uiColor": "1e5b8a",
   "tags": "Automation",
@@ -174,7 +174,7 @@
   "projectLogo": {
    "id": "65b412f75d1db2becbe7ce96",
    "prefix": "media",
-   "filename": "prometheus.jpg",
+   "filename": "og-dinesh.jpg",
    "mimeType": "image/jpeg",
    "filesize": 10641,
    "width": 400,
@@ -185,69 +185,69 @@
      "height": 100,
      "mimeType": "image/jpeg",
      "filesize": 1782,
-     "filename": "prometheus-200x100.jpg",
-     "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/prometheus-200x100.jpg"
+     "filename": "og-dinesh-200x100.jpg",
+     "url": "assets/images/og-dinesh.jpg"
     },
     "i400px": {
      "width": 400,
      "height": 200,
      "mimeType": "image/jpeg",
      "filesize": 3926,
-     "filename": "prometheus-400x200.jpg",
-     "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/prometheus-400x200.jpg"
+     "filename": "og-dinesh-400x200.jpg",
+     "url": "assets/images/og-dinesh.jpg"
     },
     "i600px": {
      "width": 600,
      "height": 300,
      "mimeType": "image/jpeg",
      "filesize": 5579,
-     "filename": "prometheus-600x300.jpg",
-     "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/prometheus-600x300.jpg"
+     "filename": "og-dinesh-600x300.jpg",
+     "url": "assets/images/og-dinesh.jpg"
     },
     "i1024px": {
      "width": 1024,
      "height": 512,
      "mimeType": "image/jpeg",
      "filesize": 9856,
-     "filename": "prometheus-1024x512.jpg",
-     "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/prometheus-1024x512.jpg"
+     "filename": "og-dinesh-1024x512.jpg",
+     "url": "assets/images/og-dinesh.jpg"
     },
     "i1280px": {
      "width": 1280,
      "height": 640,
      "mimeType": "image/jpeg",
      "filesize": 12981,
-     "filename": "prometheus-1280x640.jpg",
-     "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/prometheus-1280x640.jpg"
+     "filename": "og-dinesh-1280x640.jpg",
+     "url": "assets/images/og-dinesh.jpg"
     },
     "i1600px": {
      "width": 1600,
      "height": 800,
      "mimeType": "image/jpeg",
      "filesize": 18128,
-     "filename": "prometheus-1600x800.jpg",
-     "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/prometheus-1600x800.jpg"
+     "filename": "og-dinesh-1600x800.jpg",
+     "url": "assets/images/og-dinesh.jpg"
     },
     "i2000px": {
      "width": 2000,
      "height": 1000,
      "mimeType": "image/jpeg",
      "filesize": 24738,
-     "filename": "prometheus-2000x1000.jpg",
-     "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/prometheus-2000x1000.jpg"
+     "filename": "og-dinesh-2000x1000.jpg",
+     "url": "assets/images/og-dinesh.jpg"
     },
     "thumbnail": {
      "width": 400,
      "height": 300,
      "mimeType": "image/jpeg",
      "filesize": 5180,
-     "filename": "prometheus-400x300.jpg",
-     "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/prometheus-400x300.jpg"
+     "filename": "og-dinesh-400x300.jpg",
+     "url": "assets/images/og-dinesh.jpg"
     }
    },
    "createdAt": "2024-01-26T20:15:51.034Z",
    "updatedAt": "2024-01-26T20:15:51.034Z",
-   "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/prometheus.jpg"
+   "url": "assets/images/og-dinesh.jpg"
   }
  },
  {
@@ -258,9 +258,9 @@
   "completionDate": "2025-01-01T12:00:00.000Z",
   "video": {
    "id": "65a814fbcf624f70f8ffe0e4",
-   "thumbnail": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/Million_Piece_Mission_1.jpg",
+   "thumbnail": "assets/images/og-dinesh.jpg",
    "prefix": "media",
-   "filename": "Million_Piece_Mission_1.mp4",
+   "filename": "stock-blue.mp4",
    "mimeType": "video/mp4",
    "filesize": 7800844,
    "sizes": {
@@ -291,7 +291,7 @@
    },
    "createdAt": "2024-01-17T17:57:15.351Z",
    "updatedAt": "2024-01-17T17:57:15.351Z",
-   "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/Million_Piece_Mission_1.mp4"
+   "url": "assets/video/stock-blue.mp4"
   },
   "tags": "Platform",
   "createdAt": "2024-01-08T20:33:10.490Z",
@@ -302,7 +302,7 @@
   "projectLogo": {
    "id": "65a87c65cf624f70f8ffe851",
    "prefix": "media",
-   "filename": "airforce-1.jpg",
+   "filename": "og-dinesh.jpg",
    "mimeType": "image/jpeg",
    "filesize": 10885,
    "width": 400,
@@ -313,56 +313,56 @@
      "height": 100,
      "mimeType": "image/jpeg",
      "filesize": 1704,
-     "filename": "airforce-1-200x100.jpg",
-     "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/airforce-1-200x100.jpg"
+     "filename": "og-dinesh-200x100.jpg",
+     "url": "assets/images/og-dinesh.jpg"
     },
     "i400px": {
      "width": 400,
      "height": 200,
      "mimeType": "image/jpeg",
      "filesize": 4075,
-     "filename": "airforce-1-400x200.jpg",
-     "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/airforce-1-400x200.jpg"
+     "filename": "og-dinesh-400x200.jpg",
+     "url": "assets/images/og-dinesh.jpg"
     },
     "i600px": {
      "width": 600,
      "height": 300,
      "mimeType": "image/jpeg",
      "filesize": 6037,
-     "filename": "airforce-1-600x300.jpg",
-     "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/airforce-1-600x300.jpg"
+     "filename": "og-dinesh-600x300.jpg",
+     "url": "assets/images/og-dinesh.jpg"
     },
     "i1024px": {
      "width": 1024,
      "height": 512,
      "mimeType": "image/jpeg",
      "filesize": 11205,
-     "filename": "airforce-1-1024x512.jpg",
-     "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/airforce-1-1024x512.jpg"
+     "filename": "og-dinesh-1024x512.jpg",
+     "url": "assets/images/og-dinesh.jpg"
     },
     "i1600px": {
      "width": 1600,
      "height": 800,
      "mimeType": "image/jpeg",
      "filesize": 20657,
-     "filename": "airforce-1-1600x800.jpg",
-     "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/airforce-1-1600x800.jpg"
+     "filename": "og-dinesh-1600x800.jpg",
+     "url": "assets/images/og-dinesh.jpg"
     },
     "i2000px": {
      "width": 2000,
      "height": 1000,
      "mimeType": "image/jpeg",
      "filesize": 28072,
-     "filename": "airforce-1-2000x1000.jpg",
-     "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/airforce-1-2000x1000.jpg"
+     "filename": "og-dinesh-2000x1000.jpg",
+     "url": "assets/images/og-dinesh.jpg"
     },
     "thumbnail": {
      "width": 400,
      "height": 300,
      "mimeType": "image/jpeg",
      "filesize": 5594,
-     "filename": "airforce-1-400x300.jpg",
-     "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/airforce-1-400x300.jpg"
+     "filename": "og-dinesh-400x300.jpg",
+     "url": "assets/images/og-dinesh.jpg"
     },
     "i1280px": {
      "url": null
@@ -370,7 +370,7 @@
    },
    "createdAt": "2024-01-18T01:18:29.059Z",
    "updatedAt": "2024-01-18T01:18:29.059Z",
-   "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/airforce-1.jpg"
+   "url": "assets/images/og-dinesh.jpg"
   }
  },
  {
@@ -382,9 +382,9 @@
   "stats": "14 million planes thrown and caught, 158 countries getting involved, 2:16 minutes average interaction time",
   "video": {
    "id": "65a814e5cf624f70f8ffe0d9",
-   "thumbnail": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/paperplanes_1.jpg",
+   "thumbnail": "assets/images/og-dinesh.jpg",
    "prefix": "media",
-   "filename": "paperplanes_1.mp4",
+   "filename": "stock-blue.mp4",
    "mimeType": "video/mp4",
    "filesize": 7583170,
    "sizes": {
@@ -415,7 +415,7 @@
    },
    "createdAt": "2024-01-17T17:56:53.536Z",
    "updatedAt": "2024-01-17T17:56:53.536Z",
-   "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/paperplanes_1.mp4"
+   "url": "assets/video/stock-blue.mp4"
   },
   "image": {
    "id": "659862022acb330ac634156a",
@@ -432,7 +432,7 @@
      "mimeType": "image/jpeg",
      "filesize": 3533,
      "filename": "Paperplanes1-200x113.jpg",
-     "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/Paperplanes1-200x113.jpg"
+     "url": "assets/images/og-dinesh.jpg"
     },
     "i400px": {
      "width": 400,
@@ -440,7 +440,7 @@
      "mimeType": "image/jpeg",
      "filesize": 9982,
      "filename": "Paperplanes1-400x225.jpg",
-     "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/Paperplanes1-400x225.jpg"
+     "url": "assets/images/og-dinesh.jpg"
     },
     "i600px": {
      "width": 600,
@@ -448,7 +448,7 @@
      "mimeType": "image/jpeg",
      "filesize": 18060,
      "filename": "Paperplanes1-600x338.jpg",
-     "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/Paperplanes1-600x338.jpg"
+     "url": "assets/images/og-dinesh.jpg"
     },
     "i1024px": {
      "width": 1024,
@@ -456,7 +456,7 @@
      "mimeType": "image/jpeg",
      "filesize": 38523,
      "filename": "Paperplanes1-1024x576.jpg",
-     "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/Paperplanes1-1024x576.jpg"
+     "url": "assets/images/og-dinesh.jpg"
     },
     "i1600px": {
      "width": 1600,
@@ -464,7 +464,7 @@
      "mimeType": "image/jpeg",
      "filesize": 72357,
      "filename": "Paperplanes1-1600x900.jpg",
-     "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/Paperplanes1-1600x900.jpg"
+     "url": "assets/images/og-dinesh.jpg"
     },
     "i2000px": {
      "width": 2000,
@@ -472,7 +472,7 @@
      "mimeType": "image/jpeg",
      "filesize": 97862,
      "filename": "Paperplanes1-2000x1125.jpg",
-     "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/Paperplanes1-2000x1125.jpg"
+     "url": "assets/images/og-dinesh.jpg"
     },
     "thumbnail": {
      "width": 400,
@@ -480,7 +480,7 @@
      "mimeType": "image/jpeg",
      "filesize": 11867,
      "filename": "Paperplanes1-400x300.jpg",
-     "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/Paperplanes1-400x300.jpg"
+     "url": "assets/images/og-dinesh.jpg"
     },
     "i1280px": {
      "url": null
@@ -488,7 +488,7 @@
    },
    "createdAt": "2024-01-05T20:09:38.222Z",
    "updatedAt": "2024-01-05T20:09:38.222Z",
-   "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/Paperplanes1.jpg"
+   "url": "assets/images/og-dinesh.jpg"
   },
   "tags": "Tracking",
   "createdAt": "2024-01-05T21:13:01.339Z",
@@ -499,7 +499,7 @@
   "projectLogo": {
    "id": "65a8408fcf624f70f8ffe3e0",
    "prefix": "media",
-   "filename": "google.jpg",
+   "filename": "og-dinesh.jpg",
    "mimeType": "image/jpeg",
    "filesize": 12967,
    "width": 401,
@@ -510,56 +510,56 @@
      "height": 100,
      "mimeType": "image/jpeg",
      "filesize": 2161,
-     "filename": "google-200x100.jpg",
-     "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/google-200x100.jpg"
+     "filename": "og-dinesh-200x100.jpg",
+     "url": "assets/images/og-dinesh.jpg"
     },
     "i400px": {
      "width": 400,
      "height": 200,
      "mimeType": "image/jpeg",
      "filesize": 5012,
-     "filename": "google-400x200.jpg",
-     "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/google-400x200.jpg"
+     "filename": "og-dinesh-400x200.jpg",
+     "url": "assets/images/og-dinesh.jpg"
     },
     "i600px": {
      "width": 600,
      "height": 299,
      "mimeType": "image/jpeg",
      "filesize": 7880,
-     "filename": "google-600x299.jpg",
-     "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/google-600x299.jpg"
+     "filename": "og-dinesh-600x299.jpg",
+     "url": "assets/images/og-dinesh.jpg"
     },
     "i1024px": {
      "width": 1024,
      "height": 511,
      "mimeType": "image/jpeg",
      "filesize": 13209,
-     "filename": "google-1024x511.jpg",
-     "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/google-1024x511.jpg"
+     "filename": "og-dinesh-1024x511.jpg",
+     "url": "assets/images/og-dinesh.jpg"
     },
     "i1600px": {
      "width": 1600,
      "height": 798,
      "mimeType": "image/jpeg",
      "filesize": 23103,
-     "filename": "google-1600x798.jpg",
-     "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/google-1600x798.jpg"
+     "filename": "og-dinesh-1600x798.jpg",
+     "url": "assets/images/og-dinesh.jpg"
     },
     "i2000px": {
      "width": 2000,
      "height": 998,
      "mimeType": "image/jpeg",
      "filesize": 30903,
-     "filename": "google-2000x998.jpg",
-     "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/google-2000x998.jpg"
+     "filename": "og-dinesh-2000x998.jpg",
+     "url": "assets/images/og-dinesh.jpg"
     },
     "thumbnail": {
      "width": 400,
      "height": 300,
      "mimeType": "image/jpeg",
      "filesize": 6702,
-     "filename": "google-400x300.jpg",
-     "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/google-400x300.jpg"
+     "filename": "og-dinesh-400x300.jpg",
+     "url": "assets/images/og-dinesh.jpg"
     },
     "i1280px": {
      "url": null
@@ -567,7 +567,7 @@
    },
    "createdAt": "2024-01-17T21:03:11.276Z",
    "updatedAt": "2024-01-17T21:03:11.276Z",
-   "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/google.jpg"
+   "url": "assets/images/og-dinesh.jpg"
   }
  }
 ]
