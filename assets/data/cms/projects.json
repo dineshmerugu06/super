@@ -116,7 +116,7 @@
    "updatedAt": "2024-01-21T01:27:13.505Z",
    "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/sustainable_1_1.mp4"
   },
-  "uiColor": "d4af37",
+  "uiColor": "4aabcc",
   "tags": "AI Agents",
   "priority": 1,
   "createdAt": "2024-01-21T01:27:58.017Z",
@@ -166,7 +166,7 @@
    "updatedAt": "2024-01-15T18:52:07.398Z",
    "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/prometheus (720p).mp4"
   },
-  "uiColor": "2ec4b6",
+  "uiColor": "1e5b8a",
   "tags": "Automation",
   "priority": 2,
   "createdAt": "2024-01-15T18:52:21.232Z",
@@ -298,7 +298,7 @@
   "updatedAt": "2024-01-19T17:12:10.155Z",
   "slug": "auction-space",
   "priority": 3,
-  "uiColor": "e3b341",
+  "uiColor": "72b2d5",
   "projectLogo": {
    "id": "65a87c65cf624f70f8ffe851",
    "prefix": "media",
@@ -495,7 +495,7 @@
   "updatedAt": "2024-01-19T17:05:23.470Z",
   "slug": "college-bus-tracking-system",
   "priority": 4,
-  "uiColor": "56ccf2",
+  "uiColor": "2f7fae",
   "projectLogo": {
    "id": "65a8408fcf624f70f8ffe3e0",
    "prefix": "media",
