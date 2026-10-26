@@ -4656,19 +4656,19 @@
 	"SceneLayout/SceneLayout/Element_3_homeScene/_tx_tMap": "{\"src\":\"assets/images/scene_1/floor.jpg?1651014545365\",\"hotreload\":true}",
 	"SpineShader/SpineShader/Element_5_Work/_tx_tBaseColor": {
 		"compressed": false,
-		"filename": "atlas_gradient.png",
+		"filename": "infinian_atlas.png",
 		"prefix": "assets/images",
 		"relative": "assets/images",
-		"src": "assets/images/pbr/atlas_gradient.png",
+		"src": "assets/images/pbr/infinian_atlas.png",
 		"useCompressed": false
 	},
 	"SpineShader/SpineShader/Element_5_Work/_tx_tMRO": {
 		"compressed": false,
-		"filename": "cliffs_MRO.png",
+		"filename": "uniform_mro.png",
 		"prefix": "assets/images",
 		"relative": "assets/images",
-		"src": "assets/images/pbr/cliffs_MRO.png",
-		"useCompressed": true
+		"src": "assets/images/pbr/uniform_mro.png",
+		"useCompressed": false
 	},
 	"SpineShader/SpineShader/Element_5_Work/_tx_tMatcap": {
 		"hotreload": true,
@@ -4676,19 +4676,19 @@
 	},
 	"SpineShader/SpineShader/Element_5_Work/_tx_tNormal": {
 		"hotreload": true,
-		"src": "assets/images/pbr/damaged_road_normal.png?1704405937759-compressedKtx2"
+		"src": "assets/images/pbr/flat_normal.png"
 	},
 	"SpineShader/SpineShader/Element_5_Work/_txtMRO": {
 		"compressed": false,
-		"filename": "cliffs_MRO.png",
+		"filename": "uniform_mro.png",
 		"prefix": "assets/images",
 		"relative": "assets/images",
-		"src": "assets/images/pbr/cliffs_MRO.png",
-		"useCompressed": true
+		"src": "assets/images/pbr/uniform_mro.png",
+		"useCompressed": false
 	},
 	"SpineShader/SpineShader/Element_5_Work/_txtMatcap": {
 		"compressed": false,
-		"filename": "atlas_matcap.png",
+		"filename": "uniform_mro.png",
 		"prefix": "assets/images",
 		"relative": "assets/images",
 		"src": "assets/images/pbr/atlas_matcap.png",
@@ -4696,22 +4696,22 @@
 	},
 	"SpineShader/SpineShader/Element_5_Work/_txtNormal": {
 		"compressed": false,
-		"filename": "damaged_road_normal.png",
+		"filename": "flat_normal.png",
 		"prefix": "assets/images",
 		"relative": "assets/images",
-		"src": "assets/images/pbr/damaged_road_normal.png",
-		"useCompressed": true
+		"src": "assets/images/pbr/flat_normal.png",
+		"useCompressed": false
 	},
 	"SpineShader/SpineShader/Element_5_Work/_txtBaseColor": {
 		"compressed": false,
-		"filename": "atlas_gradient.png",
+		"filename": "flat_normal.png",
 		"prefix": "assets/images",
 		"relative": "assets/images",
-		"src": "assets/images/pbr/atlas_gradient.png",
+		"src": "assets/images/pbr/infinian_atlas.png",
 		"useCompressed": false
 	},
 	"SpineShader/SpineShader/Element_5_Work/uNormalStrength": 0.19,
-	"SpineShader/SpineShader/Element_5_Work/uColor": "#ffd9a8",
+	"SpineShader/SpineShader/Element_5_Work/uColor": "#ffffff",
 	"SpineShader/SpineShader/Element_5_Work/uLight": [
 		1,
 		1,
