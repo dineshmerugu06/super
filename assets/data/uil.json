@@ -667,32 +667,6 @@
 	],
 	"HomeAlleyShader/HomeAlleyShader/Element_4_home_scene/uPhongColor": "#4aabcc",
 	"HomeAlleyShader/HomeAlleyShader/Element_4_home_scene/_tx_tConcrete": "{\"src\":\"assets/images/concrete.jpg\",\"relative\":\"\",\"prefix\":\"assets/images\",\"filename\":\"concrete.jpg\",\"compressed\":false}",
-	"HomeColumnShader/HomeColumnShader/Element_10_ParticleTest/_tx_tRefraction": {
-		"hotreload": true,
-		"src": "assets/images/room/matcap-test.jpg?1704406116063-compressedKtx2"
-	},
-	"HomeColumnShader/HomeColumnShader/Element_10_ParticleTest/_txtRefraction": {
-		"compressed": false,
-		"filename": "matcap-test.jpg",
-		"prefix": "assets/images",
-		"relative": "assets/images",
-		"src": "assets/images/room/matcap-test.jpg",
-		"useCompressed": false
-	},
-	"HomeColumnShader/HomeColumnShader/Element_10_ParticleTest/uOffset": 3,
-	"HomeColumnShader/HomeColumnShader/Element_9_ParticleTest/_tx_tRefraction": {
-		"hotreload": true,
-		"src": "assets/images/room/matcap-test.jpg?1704406116063-compressedKtx2"
-	},
-	"HomeColumnShader/HomeColumnShader/Element_9_ParticleTest/_txtRefraction": {
-		"compressed": false,
-		"filename": "matcap-test.jpg",
-		"prefix": "assets/images",
-		"relative": "assets/images",
-		"src": "assets/images/room/matcap-test.jpg",
-		"useCompressed": false
-	},
-	"HomeColumnShader/HomeColumnShader/Element_9_ParticleTest/uOffset": 0,
 	"HomeCompositeuContrast": [
 		0.98,
 		1.2
@@ -1118,17 +1092,6 @@
 	"INPUT_Config_10_CleanRoom_name": "camera",
 	"INPUT_Config_10_CleanRoom_renderOrder": 0,
 	"INPUT_Config_10_CleanRoom_sortIndex": 0,
-	"INPUT_Config_10_ParticleTest_transparent": true,
-	"INPUT_Config_10_ParticleTest_geometry": {
-		"filename": "",
-		"prefix": "",
-		"relative": "World.TUBE",
-		"src": ""
-	},
-	"INPUT_Config_10_ParticleTest_name": "column2",
-	"INPUT_Config_10_ParticleTest_renderOrder": 8,
-	"INPUT_Config_10_ParticleTest_shader": "HomeColumnShader",
-	"INPUT_Config_10_ParticleTest_sortIndex": 8,
 	"INPUT_Config_10_TreeScene_custom": "GazeCamera",
 	"INPUT_Config_10_TreeScene_name": "camera",
 	"INPUT_Config_10_TreeScene_renderOrder": 0,
@@ -1800,17 +1763,6 @@
 	"INPUT_Config_9_CleanRoom_receiveLight": false,
 	"INPUT_Config_9_CleanRoom_renderOrder": 7,
 	"INPUT_Config_9_CleanRoom_sortIndex": 7,
-	"INPUT_Config_9_ParticleTest_name": "column",
-	"INPUT_Config_9_ParticleTest_geometry": {
-		"filename": "",
-		"prefix": "",
-		"relative": "World.TUBE",
-		"src": ""
-	},
-	"INPUT_Config_9_ParticleTest_renderOrder": 7,
-	"INPUT_Config_9_ParticleTest_shader": "HomeColumnShader",
-	"INPUT_Config_9_ParticleTest_sortIndex": 7,
-	"INPUT_Config_9_ParticleTest_transparent": true,
 	"INPUT_Config_9_WorkDetailContent_name": "button",
 	"INPUT_Config_9_WorkDetailContent_sortIndex": 4,
 	"INPUT_Config_9_WorkDetailContent_renderOrder": 4,
@@ -2715,21 +2667,6 @@
 		1.5,
 		1.5,
 		1.5
-	],
-	"MESH_Element_10_ParticleTestposition": [
-		0,
-		14,
-		0
-	],
-	"MESH_Element_10_ParticleTestrotation": [
-		0,
-		0,
-		0
-	],
-	"MESH_Element_10_ParticleTestscale": [
-		1,
-		1,
-		1
 	],
 	"MESH_Element_10_home_sceneposition": [
 		0,
@@ -3718,21 +3655,6 @@
 	],
 	"MESH_Element_9_CleanRoomrotation": [
 		-90,
-		0,
-		0
-	],
-	"MESH_Element_9_ParticleTestscale": [
-		1,
-		1,
-		1
-	],
-	"MESH_Element_9_ParticleTestposition": [
-		0,
-		14,
-		0
-	],
-	"MESH_Element_9_ParticleTestrotation": [
-		0,
 		0,
 		0
 	],
@@ -6290,5 +6212,27 @@
 		"relative": "assets/images",
 		"src": "assets/images/room/concrete-polished-normal.jpg",
 		"useCompressed": false
-	}
+	},
+	"HomeColumnShader/HomeColumnShader/Element_10_ParticleTest/_tx_tRefraction": {"hotreload": true, "src": "assets/images/room/matcap-test.jpg?1704406116063-compressedKtx2"},
+	"HomeColumnShader/HomeColumnShader/Element_10_ParticleTest/_txtRefraction": {"compressed": false, "filename": "matcap-test.jpg", "prefix": "assets/images", "relative": "assets/images", "src": "assets/images/room/matcap-test.jpg", "useCompressed": false},
+	"HomeColumnShader/HomeColumnShader/Element_10_ParticleTest/uOffset": 3,
+	"HomeColumnShader/HomeColumnShader/Element_9_ParticleTest/_tx_tRefraction": {"hotreload": true, "src": "assets/images/room/matcap-test.jpg?1704406116063-compressedKtx2"},
+	"HomeColumnShader/HomeColumnShader/Element_9_ParticleTest/_txtRefraction": {"compressed": false, "filename": "matcap-test.jpg", "prefix": "assets/images", "relative": "assets/images", "src": "assets/images/room/matcap-test.jpg", "useCompressed": false},
+	"HomeColumnShader/HomeColumnShader/Element_9_ParticleTest/uOffset": 0,
+	"INPUT_Config_10_ParticleTest_transparent": true,
+	"INPUT_Config_10_ParticleTest_name": "column2",
+	"INPUT_Config_10_ParticleTest_renderOrder": 8,
+	"INPUT_Config_10_ParticleTest_shader": "HomeColumnShader",
+	"INPUT_Config_10_ParticleTest_sortIndex": 8,
+	"INPUT_Config_9_ParticleTest_name": "column",
+	"INPUT_Config_9_ParticleTest_renderOrder": 7,
+	"INPUT_Config_9_ParticleTest_shader": "HomeColumnShader",
+	"INPUT_Config_9_ParticleTest_sortIndex": 7,
+	"INPUT_Config_9_ParticleTest_transparent": true,
+	"MESH_Element_10_ParticleTestposition": [0, 14, 0],
+	"MESH_Element_10_ParticleTestrotation": [0, 0, 0],
+	"MESH_Element_10_ParticleTestscale": [0, 0, 0],
+	"MESH_Element_9_ParticleTestscale": [0, 0, 0],
+	"MESH_Element_9_ParticleTestposition": [0, 14, 0],
+	"MESH_Element_9_ParticleTestrotation": [0, 0, 0]
 }
