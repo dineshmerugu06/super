@@ -4655,15 +4655,15 @@
 	"SceneLayout/SceneLayout/Element_2_homeScene/_tx_tMap": "{\"src\":\"assets/images/scene_1/walls.jpg?1651014713711\",\"hotreload\":true}",
 	"SceneLayout/SceneLayout/Element_3_homeScene/_tx_tMap": "{\"src\":\"assets/images/scene_1/floor.jpg?1651014545365\",\"hotreload\":true}",
 	"SpineShader/SpineShader/Element_5_Work/_tx_tBaseColor": {
-		"compressed": "ktx2",
-		"filename": "alien_cracked_2_basecolor.png",
+		"compressed": false,
+		"filename": "atlas_gradient.png",
 		"prefix": "assets/images",
 		"relative": "assets/images",
-		"src": "assets/images/pbr/alien_cracked_2_basecolor.png",
-		"useCompressed": true
+		"src": "assets/images/pbr/atlas_gradient.png",
+		"useCompressed": false
 	},
 	"SpineShader/SpineShader/Element_5_Work/_tx_tMRO": {
-		"compressed": "ktx2",
+		"compressed": false,
 		"filename": "cliffs_MRO.png",
 		"prefix": "assets/images",
 		"relative": "assets/images",
@@ -4672,14 +4672,14 @@
 	},
 	"SpineShader/SpineShader/Element_5_Work/_tx_tMatcap": {
 		"hotreload": true,
-		"src": "assets/images/room/matcap-test.jpg?1704406116063-compressedKtx2"
+		"src": "assets/images/pbr/atlas_matcap.png"
 	},
 	"SpineShader/SpineShader/Element_5_Work/_tx_tNormal": {
 		"hotreload": true,
 		"src": "assets/images/pbr/damaged_road_normal.png?1704405937759-compressedKtx2"
 	},
 	"SpineShader/SpineShader/Element_5_Work/_txtMRO": {
-		"compressed": "ktx2",
+		"compressed": false,
 		"filename": "cliffs_MRO.png",
 		"prefix": "assets/images",
 		"relative": "assets/images",
@@ -4687,15 +4687,15 @@
 		"useCompressed": true
 	},
 	"SpineShader/SpineShader/Element_5_Work/_txtMatcap": {
-		"compressed": "ktx2",
-		"filename": "matcap-test.jpg",
+		"compressed": false,
+		"filename": "atlas_matcap.png",
 		"prefix": "assets/images",
 		"relative": "assets/images",
-		"src": "assets/images/room/matcap-test.jpg",
-		"useCompressed": true
+		"src": "assets/images/pbr/atlas_matcap.png",
+		"useCompressed": false
 	},
 	"SpineShader/SpineShader/Element_5_Work/_txtNormal": {
-		"compressed": "ktx2",
+		"compressed": false,
 		"filename": "damaged_road_normal.png",
 		"prefix": "assets/images",
 		"relative": "assets/images",
@@ -4703,15 +4703,15 @@
 		"useCompressed": true
 	},
 	"SpineShader/SpineShader/Element_5_Work/_txtBaseColor": {
-		"compressed": "ktx2",
-		"filename": "alien_cracked_2_basecolor.png",
+		"compressed": false,
+		"filename": "atlas_gradient.png",
 		"prefix": "assets/images",
 		"relative": "assets/images",
-		"src": "assets/images/pbr/alien_cracked_2_basecolor.png",
-		"useCompressed": true
+		"src": "assets/images/pbr/atlas_gradient.png",
+		"useCompressed": false
 	},
 	"SpineShader/SpineShader/Element_5_Work/uNormalStrength": 0.19,
-	"SpineShader/SpineShader/Element_5_Work/uColor": "#dceef6",
+	"SpineShader/SpineShader/Element_5_Work/uColor": "#ffd9a8",
 	"SpineShader/SpineShader/Element_5_Work/uLight": [
 		1,
 		1,
