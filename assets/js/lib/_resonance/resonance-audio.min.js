@@ -5,20 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui, viewport-fit=cover">
     <base href="/">
-    <link href="https://activetheory.net" rel="canonical">
-    <title>Active Theory · Creative Digital Experiences</title>
-    <meta name="description" content="Founded in 2012. We blend story, art & technology as an in-house team of passionate makers. Our industry-leading web toolset consistently delivers award-winning work through quality & performance. ">
-    <meta property="og:url" content="https://activetheory.net">
+    <link href="https://dineshmerugu06.github.io/super/" rel="canonical">
+    <title>Merugu Dinesh Kumar · AI-Assisted Software Development</title>
+    <meta name="description" content="MCA graduate focused on AI-assisted software development, full-stack applications, backend engineering, and automation. Building practical applications with Python, FastAPI, React, TypeScript, PostgreSQL, and browser automation. ">
+    <meta property="og:url" content="https://dineshmerugu06.github.io/super/">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Active Theory · Creative Digital Experiences">
-    <meta property="og:description" content="Founded in 2012. We blend story, art & technology as an in-house team of passionate makers. Our industry-leading web toolset consistently delivers award-winning work through quality & performance. ">
+    <meta property="og:title" content="Merugu Dinesh Kumar · AI-Assisted Software Development">
+    <meta property="og:description" content="MCA graduate focused on AI-assisted software development, full-stack applications, backend engineering, and automation. Building practical applications with Python, FastAPI, React, TypeScript, PostgreSQL, and browser automation. ">
     <meta property="og:image" content="https://storage.googleapis.com/activetheory-v6.appspot.com/media/social.jpg">
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://activetheory.net">
-    <meta property="twitter:title" content="Active Theory · Creative Digital Experiences">
-    <meta property="twitter:description" content="Founded in 2012. We blend story, art & technology as an in-house team of passionate makers. Our industry-leading web toolset consistently delivers award-winning work through quality & performance. ">
+    <meta property="twitter:url" content="https://dineshmerugu06.github.io/super/">
+    <meta property="twitter:title" content="Merugu Dinesh Kumar · AI-Assisted Software Development">
+    <meta property="twitter:description" content="MCA graduate focused on AI-assisted software development, full-stack applications, backend engineering, and automation. Building practical applications with Python, FastAPI, React, TypeScript, PostgreSQL, and browser automation. ">
     <meta property="twitter:image" content="https://storage.googleapis.com/activetheory-v6.appspot.com/media/social.jpg">
-    <meta name="apple-mobile-web-app-title" content="Active Theory">
+    <meta name="apple-mobile-web-app-title" content="Dinesh Kumar">
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<meta name="apple-mobile-web-app-status-bar-style" content="black">	
 	<link rel="apple-touch-icon" sizes="180x180" href="assets/meta/apple-touch-icon.png">

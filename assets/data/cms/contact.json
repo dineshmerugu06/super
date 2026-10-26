@@ -1,0 +1,23 @@
+{
+ "links": [
+  {
+   "title": "Email",
+   "url": "mailto:dinesh.merugu.kumar@gmail.com",
+   "id": "65c136c0c0c0f7604e81a42b"
+  },
+  {
+   "title": "Phone",
+   "url": "tel:9398359538",
+   "id": "65c13868c0c0f7604e81a42c"
+  },
+  {
+   "title": "LinkedIn",
+   "url": "https://www.linkedin.com/in/m-dinesh-23210b3a3",
+   "id": "65c1389dc0c0f7604e81a42f"
+  }
+ ],
+ "globalType": "contact",
+ "createdAt": "2024-02-05T19:36:14.328Z",
+ "updatedAt": "2024-02-05T19:36:14.328Z",
+ "id": "65c138ae3f7e83834f95b658"
+}

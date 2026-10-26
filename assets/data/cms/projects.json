@@ -1,0 +1,573 @@
+[
+ {
+  "id": "65ac731e5d1db2becbe7c8b5",
+  "name": "IMPERIUM \u2013 Multi-AI-Agent Command System",
+  "slug": "imperium",
+  "description": "Designed and developed a modular Multi-AI-Agent architecture for coordinating specialized AI agents. Built and completed the Job Agent as the first fully implemented agent for job discovery, resume generation, application workflows, and tracking. Developed Resume Studio to generate ATS-friendly resumes tailored to individual job descriptions. Designed REST APIs using Python and FastAPI for communication between frontend, backend, and agent modules. Built responsive interfaces using React and TypeScript. Integrated PostgreSQL and Supabase for structured application data. Implemented Selenium-based browser automation for repetitive application tasks. Additional AI agents can be added independently without restructuring the core system.",
+  "clientName": "Independent Project",
+  "completionDate": "2025-01-01T12:00:00.000Z",
+  "projectLogo": {
+   "id": "65a8418dcf624f70f8ffe549",
+   "prefix": "media",
+   "filename": "wsj.jpg",
+   "mimeType": "image/jpeg",
+   "filesize": 11074,
+   "width": 401,
+   "height": 200,
+   "sizes": {
+    "i200px": {
+     "width": 200,
+     "height": 100,
+     "mimeType": "image/jpeg",
+     "filesize": 1904,
+     "filename": "wsj-200x100.jpg",
+     "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/wsj-200x100.jpg"
+    },
+    "i400px": {
+     "width": 400,
+     "height": 200,
+     "mimeType": "image/jpeg",
+     "filesize": 4294,
+     "filename": "wsj-400x200.jpg",
+     "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/wsj-400x200.jpg"
+    },
+    "i600px": {
+     "width": 600,
+     "height": 299,
+     "mimeType": "image/jpeg",
+     "filesize": 6638,
+     "filename": "wsj-600x299.jpg",
+     "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/wsj-600x299.jpg"
+    },
+    "i1024px": {
+     "width": 1024,
+     "height": 511,
+     "mimeType": "image/jpeg",
+     "filesize": 11788,
+     "filename": "wsj-1024x511.jpg",
+     "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/wsj-1024x511.jpg"
+    },
+    "i1600px": {
+     "width": 1600,
+     "height": 798,
+     "mimeType": "image/jpeg",
+     "filesize": 20630,
+     "filename": "wsj-1600x798.jpg",
+     "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/wsj-1600x798.jpg"
+    },
+    "i2000px": {
+     "width": 2000,
+     "height": 998,
+     "mimeType": "image/jpeg",
+     "filesize": 28563,
+     "filename": "wsj-2000x998.jpg",
+     "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/wsj-2000x998.jpg"
+    },
+    "thumbnail": {
+     "width": 400,
+     "height": 300,
+     "mimeType": "image/jpeg",
+     "filesize": 5540,
+     "filename": "wsj-400x300.jpg",
+     "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/wsj-400x300.jpg"
+    },
+    "i1280px": {
+     "url": null
+    }
+   },
+   "createdAt": "2024-01-17T21:07:25.737Z",
+   "updatedAt": "2024-01-17T21:07:25.737Z",
+   "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/wsj.jpg"
+  },
+  "video": {
+   "id": "65ac72f15d1db2becbe7c8ae",
+   "thumbnail": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/sustainable_1_1.jpg",
+   "prefix": "media",
+   "filename": "sustainable_1_1.mp4",
+   "mimeType": "video/mp4",
+   "filesize": 7567027,
+   "sizes": {
+    "i200px": {
+     "url": null
+    },
+    "i400px": {
+     "url": null
+    },
+    "i600px": {
+     "url": null
+    },
+    "i1024px": {
+     "url": null
+    },
+    "i1280px": {
+     "url": null
+    },
+    "i1600px": {
+     "url": null
+    },
+    "i2000px": {
+     "url": null
+    },
+    "thumbnail": {
+     "url": null
+    }
+   },
+   "createdAt": "2024-01-21T01:27:13.505Z",
+   "updatedAt": "2024-01-21T01:27:13.505Z",
+   "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/sustainable_1_1.mp4"
+  },
+  "uiColor": "48bdb5",
+  "tags": "AI Agents",
+  "priority": 1,
+  "createdAt": "2024-01-21T01:27:58.017Z",
+  "updatedAt": "2024-06-21T23:21:45.821Z"
+ },
+ {
+  "id": "65a57ee579593404072c8430",
+  "name": "KeyMind \u2013 Password Automation Tool",
+  "slug": "keymind",
+  "description": "Developed a Python-based browser automation system for automating password-related account management tasks. Implemented Selenium automation for browser interaction and repetitive credential workflows. Added structured logging to track automation activity and execution status. Integrated notification functionality to provide updates during automated workflows.",
+  "clientName": "Independent Project",
+  "completionDate": "2025-01-01T12:00:00.000Z",
+  "video": {
+   "id": "65a57ed779593404072c8429",
+   "thumbnail": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/prometheus (720p).jpg",
+   "prefix": "media",
+   "filename": "prometheus (720p).mp4",
+   "mimeType": "video/mp4",
+   "filesize": 8043251,
+   "sizes": {
+    "i200px": {
+     "url": null
+    },
+    "i400px": {
+     "url": null
+    },
+    "i600px": {
+     "url": null
+    },
+    "i1024px": {
+     "url": null
+    },
+    "i1600px": {
+     "url": null
+    },
+    "i2000px": {
+     "url": null
+    },
+    "thumbnail": {
+     "url": null
+    },
+    "i1280px": {
+     "url": null
+    }
+   },
+   "createdAt": "2024-01-15T18:52:07.398Z",
+   "updatedAt": "2024-01-15T18:52:07.398Z",
+   "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/prometheus (720p).mp4"
+  },
+  "uiColor": "765648",
+  "tags": "Automation",
+  "priority": 2,
+  "createdAt": "2024-01-15T18:52:21.232Z",
+  "updatedAt": "2024-01-26T20:16:00.039Z",
+  "projectLogo": {
+   "id": "65b412f75d1db2becbe7ce96",
+   "prefix": "media",
+   "filename": "prometheus.jpg",
+   "mimeType": "image/jpeg",
+   "filesize": 10641,
+   "width": 400,
+   "height": 200,
+   "sizes": {
+    "i200px": {
+     "width": 200,
+     "height": 100,
+     "mimeType": "image/jpeg",
+     "filesize": 1782,
+     "filename": "prometheus-200x100.jpg",
+     "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/prometheus-200x100.jpg"
+    },
+    "i400px": {
+     "width": 400,
+     "height": 200,
+     "mimeType": "image/jpeg",
+     "filesize": 3926,
+     "filename": "prometheus-400x200.jpg",
+     "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/prometheus-400x200.jpg"
+    },
+    "i600px": {
+     "width": 600,
+     "height": 300,
+     "mimeType": "image/jpeg",
+     "filesize": 5579,
+     "filename": "prometheus-600x300.jpg",
+     "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/prometheus-600x300.jpg"
+    },
+    "i1024px": {
+     "width": 1024,
+     "height": 512,
+     "mimeType": "image/jpeg",
+     "filesize": 9856,
+     "filename": "prometheus-1024x512.jpg",
+     "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/prometheus-1024x512.jpg"
+    },
+    "i1280px": {
+     "width": 1280,
+     "height": 640,
+     "mimeType": "image/jpeg",
+     "filesize": 12981,
+     "filename": "prometheus-1280x640.jpg",
+     "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/prometheus-1280x640.jpg"
+    },
+    "i1600px": {
+     "width": 1600,
+     "height": 800,
+     "mimeType": "image/jpeg",
+     "filesize": 18128,
+     "filename": "prometheus-1600x800.jpg",
+     "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/prometheus-1600x800.jpg"
+    },
+    "i2000px": {
+     "width": 2000,
+     "height": 1000,
+     "mimeType": "image/jpeg",
+     "filesize": 24738,
+     "filename": "prometheus-2000x1000.jpg",
+     "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/prometheus-2000x1000.jpg"
+    },
+    "thumbnail": {
+     "width": 400,
+     "height": 300,
+     "mimeType": "image/jpeg",
+     "filesize": 5180,
+     "filename": "prometheus-400x300.jpg",
+     "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/prometheus-400x300.jpg"
+    }
+   },
+   "createdAt": "2024-01-26T20:15:51.034Z",
+   "updatedAt": "2024-01-26T20:15:51.034Z",
+   "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/prometheus.jpg"
+  }
+ },
+ {
+  "id": "659c5c06fcb2fed60e2d7a5d",
+  "name": "Auction Space",
+  "description": "Developed an online auction platform using Java, Spring Boot, and MySQL. Implemented OTP-based authentication for secure account access. Built REST APIs for user management, product listings, and bidding operations. Designed relational database structures for users, products, bids, and auction records.",
+  "clientName": "Academic Project",
+  "completionDate": "2025-01-01T12:00:00.000Z",
+  "video": {
+   "id": "65a814fbcf624f70f8ffe0e4",
+   "thumbnail": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/Million_Piece_Mission_1.jpg",
+   "prefix": "media",
+   "filename": "Million_Piece_Mission_1.mp4",
+   "mimeType": "video/mp4",
+   "filesize": 7800844,
+   "sizes": {
+    "i200px": {
+     "url": null
+    },
+    "i400px": {
+     "url": null
+    },
+    "i600px": {
+     "url": null
+    },
+    "i1024px": {
+     "url": null
+    },
+    "i1600px": {
+     "url": null
+    },
+    "i2000px": {
+     "url": null
+    },
+    "thumbnail": {
+     "url": null
+    },
+    "i1280px": {
+     "url": null
+    }
+   },
+   "createdAt": "2024-01-17T17:57:15.351Z",
+   "updatedAt": "2024-01-17T17:57:15.351Z",
+   "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/Million_Piece_Mission_1.mp4"
+  },
+  "tags": "Platform",
+  "createdAt": "2024-01-08T20:33:10.490Z",
+  "updatedAt": "2024-01-19T17:12:10.155Z",
+  "slug": "auction-space",
+  "priority": 3,
+  "uiColor": "979793",
+  "projectLogo": {
+   "id": "65a87c65cf624f70f8ffe851",
+   "prefix": "media",
+   "filename": "airforce-1.jpg",
+   "mimeType": "image/jpeg",
+   "filesize": 10885,
+   "width": 400,
+   "height": 200,
+   "sizes": {
+    "i200px": {
+     "width": 200,
+     "height": 100,
+     "mimeType": "image/jpeg",
+     "filesize": 1704,
+     "filename": "airforce-1-200x100.jpg",
+     "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/airforce-1-200x100.jpg"
+    },
+    "i400px": {
+     "width": 400,
+     "height": 200,
+     "mimeType": "image/jpeg",
+     "filesize": 4075,
+     "filename": "airforce-1-400x200.jpg",
+     "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/airforce-1-400x200.jpg"
+    },
+    "i600px": {
+     "width": 600,
+     "height": 300,
+     "mimeType": "image/jpeg",
+     "filesize": 6037,
+     "filename": "airforce-1-600x300.jpg",
+     "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/airforce-1-600x300.jpg"
+    },
+    "i1024px": {
+     "width": 1024,
+     "height": 512,
+     "mimeType": "image/jpeg",
+     "filesize": 11205,
+     "filename": "airforce-1-1024x512.jpg",
+     "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/airforce-1-1024x512.jpg"
+    },
+    "i1600px": {
+     "width": 1600,
+     "height": 800,
+     "mimeType": "image/jpeg",
+     "filesize": 20657,
+     "filename": "airforce-1-1600x800.jpg",
+     "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/airforce-1-1600x800.jpg"
+    },
+    "i2000px": {
+     "width": 2000,
+     "height": 1000,
+     "mimeType": "image/jpeg",
+     "filesize": 28072,
+     "filename": "airforce-1-2000x1000.jpg",
+     "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/airforce-1-2000x1000.jpg"
+    },
+    "thumbnail": {
+     "width": 400,
+     "height": 300,
+     "mimeType": "image/jpeg",
+     "filesize": 5594,
+     "filename": "airforce-1-400x300.jpg",
+     "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/airforce-1-400x300.jpg"
+    },
+    "i1280px": {
+     "url": null
+    }
+   },
+   "createdAt": "2024-01-18T01:18:29.059Z",
+   "updatedAt": "2024-01-18T01:18:29.059Z",
+   "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/airforce-1.jpg"
+  }
+ },
+ {
+  "id": "659870dd2acb330ac6341631",
+  "name": "College Bus Tracking System",
+  "description": "Led a team in developing a system for monitoring college bus routes and transportation information. Coordinated task allocation, development activities, module integration, and project progress. Implemented route tracking functionality with centralized database management. Participated in system testing, debugging, and final integration.",
+  "clientName": "Project Lead \u2013 Academic Project",
+  "completionDate": "2025-01-01T12:00:00.000Z",
+  "stats": "14 million planes thrown and caught, 158 countries getting involved, 2:16 minutes average interaction time",
+  "video": {
+   "id": "65a814e5cf624f70f8ffe0d9",
+   "thumbnail": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/paperplanes_1.jpg",
+   "prefix": "media",
+   "filename": "paperplanes_1.mp4",
+   "mimeType": "video/mp4",
+   "filesize": 7583170,
+   "sizes": {
+    "i200px": {
+     "url": null
+    },
+    "i400px": {
+     "url": null
+    },
+    "i600px": {
+     "url": null
+    },
+    "i1024px": {
+     "url": null
+    },
+    "i1600px": {
+     "url": null
+    },
+    "i2000px": {
+     "url": null
+    },
+    "thumbnail": {
+     "url": null
+    },
+    "i1280px": {
+     "url": null
+    }
+   },
+   "createdAt": "2024-01-17T17:56:53.536Z",
+   "updatedAt": "2024-01-17T17:56:53.536Z",
+   "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/paperplanes_1.mp4"
+  },
+  "image": {
+   "id": "659862022acb330ac634156a",
+   "prefix": "media",
+   "filename": "Paperplanes1.jpg",
+   "mimeType": "image/jpeg",
+   "filesize": 116028,
+   "width": 1920,
+   "height": 1080,
+   "sizes": {
+    "i200px": {
+     "width": 200,
+     "height": 113,
+     "mimeType": "image/jpeg",
+     "filesize": 3533,
+     "filename": "Paperplanes1-200x113.jpg",
+     "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/Paperplanes1-200x113.jpg"
+    },
+    "i400px": {
+     "width": 400,
+     "height": 225,
+     "mimeType": "image/jpeg",
+     "filesize": 9982,
+     "filename": "Paperplanes1-400x225.jpg",
+     "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/Paperplanes1-400x225.jpg"
+    },
+    "i600px": {
+     "width": 600,
+     "height": 338,
+     "mimeType": "image/jpeg",
+     "filesize": 18060,
+     "filename": "Paperplanes1-600x338.jpg",
+     "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/Paperplanes1-600x338.jpg"
+    },
+    "i1024px": {
+     "width": 1024,
+     "height": 576,
+     "mimeType": "image/jpeg",
+     "filesize": 38523,
+     "filename": "Paperplanes1-1024x576.jpg",
+     "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/Paperplanes1-1024x576.jpg"
+    },
+    "i1600px": {
+     "width": 1600,
+     "height": 900,
+     "mimeType": "image/jpeg",
+     "filesize": 72357,
+     "filename": "Paperplanes1-1600x900.jpg",
+     "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/Paperplanes1-1600x900.jpg"
+    },
+    "i2000px": {
+     "width": 2000,
+     "height": 1125,
+     "mimeType": "image/jpeg",
+     "filesize": 97862,
+     "filename": "Paperplanes1-2000x1125.jpg",
+     "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/Paperplanes1-2000x1125.jpg"
+    },
+    "thumbnail": {
+     "width": 400,
+     "height": 300,
+     "mimeType": "image/jpeg",
+     "filesize": 11867,
+     "filename": "Paperplanes1-400x300.jpg",
+     "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/Paperplanes1-400x300.jpg"
+    },
+    "i1280px": {
+     "url": null
+    }
+   },
+   "createdAt": "2024-01-05T20:09:38.222Z",
+   "updatedAt": "2024-01-05T20:09:38.222Z",
+   "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/Paperplanes1.jpg"
+  },
+  "tags": "Tracking",
+  "createdAt": "2024-01-05T21:13:01.339Z",
+  "updatedAt": "2024-01-19T17:05:23.470Z",
+  "slug": "college-bus-tracking-system",
+  "priority": 4,
+  "uiColor": "8a8bcf",
+  "projectLogo": {
+   "id": "65a8408fcf624f70f8ffe3e0",
+   "prefix": "media",
+   "filename": "google.jpg",
+   "mimeType": "image/jpeg",
+   "filesize": 12967,
+   "width": 401,
+   "height": 200,
+   "sizes": {
+    "i200px": {
+     "width": 200,
+     "height": 100,
+     "mimeType": "image/jpeg",
+     "filesize": 2161,
+     "filename": "google-200x100.jpg",
+     "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/google-200x100.jpg"
+    },
+    "i400px": {
+     "width": 400,
+     "height": 200,
+     "mimeType": "image/jpeg",
+     "filesize": 5012,
+     "filename": "google-400x200.jpg",
+     "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/google-400x200.jpg"
+    },
+    "i600px": {
+     "width": 600,
+     "height": 299,
+     "mimeType": "image/jpeg",
+     "filesize": 7880,
+     "filename": "google-600x299.jpg",
+     "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/google-600x299.jpg"
+    },
+    "i1024px": {
+     "width": 1024,
+     "height": 511,
+     "mimeType": "image/jpeg",
+     "filesize": 13209,
+     "filename": "google-1024x511.jpg",
+     "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/google-1024x511.jpg"
+    },
+    "i1600px": {
+     "width": 1600,
+     "height": 798,
+     "mimeType": "image/jpeg",
+     "filesize": 23103,
+     "filename": "google-1600x798.jpg",
+     "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/google-1600x798.jpg"
+    },
+    "i2000px": {
+     "width": 2000,
+     "height": 998,
+     "mimeType": "image/jpeg",
+     "filesize": 30903,
+     "filename": "google-2000x998.jpg",
+     "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/google-2000x998.jpg"
+    },
+    "thumbnail": {
+     "width": 400,
+     "height": 300,
+     "mimeType": "image/jpeg",
+     "filesize": 6702,
+     "filename": "google-400x300.jpg",
+     "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/google-400x300.jpg"
+    },
+    "i1280px": {
+     "url": null
+    }
+   },
+   "createdAt": "2024-01-17T21:03:11.276Z",
+   "updatedAt": "2024-01-17T21:03:11.276Z",
+   "url": "https://storage.googleapis.com/activetheory-v6.appspot.com/media/google.jpg"
+  }
+ }
+]
