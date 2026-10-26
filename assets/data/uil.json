@@ -2693,7 +2693,7 @@
 		1,
 		1
 	],
-	"MESH_Element_0_LogoParticlescale": [0, 0, 0],
+	"MESH_Element_0_LogoParticlescale": [2, 2, 2],
 	"MESH_Element_0_LogoParticleposition": [
 		0,
 		0,
@@ -3426,11 +3426,7 @@
 		0,
 		0
 	],
-	"MESH_Element_22_CleanRoomscale": [
-		1.56,
-		0.64,
-		1
-	],
+	"MESH_Element_22_CleanRoomscale": [0, 0, 0],
 	"MESH_Element_22_TreeSceneposition": [
 		0.29,
 		4.82,
@@ -4079,11 +4075,7 @@
 		0,
 		0
 	],
-	"MESH_Element_8_ParticleTestscale": [
-		5.64,
-		5.64,
-		7
-	],
+	"MESH_Element_8_ParticleTestscale": [0, 0, 0],
 	"MESH_Element_8_ParticleTestposition": [
 		0,
 		5,
