@@ -1018,7 +1018,6 @@
 	"INPUT_Config_0_work_scene_renderOrder": 1,
 	"INPUT_Config_14_CleanRoom_transparent": false,
 	"INPUT_Config_14_CleanRoom_blending": "shader_normal_blending",
-	"INPUT_Config_14_CleanRoom_custom": "HexagonGrid",
 	"INPUT_Config_14_CleanRoom_name": "hexagons",
 	"INPUT_Config_14_CleanRoom_parent": "sl_CleanRoom_group_0",
 	"INPUT_Config_14_CleanRoom_renderOrder": 1.5657142857142858,
@@ -1394,7 +1393,6 @@
 	"INPUT_Config_23_home_scene_group": "scene",
 	"INPUT_Config_23_home_scene_name": "walls",
 	"INPUT_Config_23_home_scene_renderOrder": 13.2,
-	"INPUT_Config_2_Contact_custom": "HexagonGrid",
 	"INPUT_Config_2_Contact_name": "hexagons",
 	"INPUT_Config_2_Contact_renderOrder": 1,
 	"INPUT_Config_2_Contact_sortIndex": 1,
@@ -1538,7 +1536,6 @@
 	"INPUT_Config_3_homeScene_shader": "ATPBR",
 	"INPUT_Config_3_homeScene_wildcard": "reflect",
 	"INPUT_Config_3_work_page_renderOrder": 4,
-	"INPUT_Config_4_Contact_custom": "HexagonGrid",
 	"INPUT_Config_4_Contact_name": "hexagons",
 	"INPUT_Config_4_Contact_renderOrder": 1,
 	"INPUT_Config_4_Contact_sortIndex": 1,
@@ -2044,9 +2041,9 @@
 	"INPUT_P_Element_0_TubesInteraction_config_class": "TubeController",
 	"INPUT_P_Element_0_TubesInteraction_config_depth": "[-1,1]",
 	"INPUT_P_Element_0_TubesInteraction_config_height": "[-1,1]",
-	"INPUT_P_Element_0_TubesInteraction_config_output": "tubes",
+	"INPUT_P_Element_0_TubesInteraction_config_output": "off",
 	"INPUT_P_Element_0_TubesInteraction_config_shader": "TubeShader",
-	"INPUT_P_Element_0_TubesInteraction_config_particleCount": "16384",
+	"INPUT_P_Element_0_TubesInteraction_config_particleCount": "0",
 	"INPUT_P_Element_0_TubesInteraction_config_width": "[-1,1]",
 	"INPUT_P_Element_0_TubesInteraction_config_type": "lifecycle",
 	"INPUT_P_Element_0_TubesInteractioncode_1_uniforms": "\n        uCurlNoiseScale: 1\n        uCurlTimeScale: 0\n        uCurlNoiseSpeed: 0\n        ",
@@ -3186,11 +3183,7 @@
 		0,
 		0
 	],
-	"MESH_Element_2_Contactscale": [
-		0.5,
-		0.5,
-		0.5
-	],
+	"MESH_Element_2_Contactscale": [0, 0, 0],
 	"MESH_Element_2_Aboutposition": [
 		0,
 		0,
