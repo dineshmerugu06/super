@@ -975,15 +975,6 @@
 	"INPUT_Config_0_TreeScene_shader": "TreeFBR",
 	"INPUT_Config_0_TreeScene_sortIndex": 0,
 	"INPUT_Config_0_TreeScene_visible": false,
-	"INPUT_Config_0_TubesInteraction_transparent": true,
-	"INPUT_Config_0_TubesInteraction_blending": "shader_normal_blending",
-	"INPUT_Config_0_TubesInteraction_castShadow": true,
-	"INPUT_Config_0_TubesInteraction_custom": "Proton",
-	"INPUT_Config_0_TubesInteraction_depthTest": true,
-	"INPUT_Config_0_TubesInteraction_depthWrite": false,
-	"INPUT_Config_0_TubesInteraction_name": "particles",
-	"INPUT_Config_0_TubesInteraction_renderOrder": 0,
-	"INPUT_Config_0_TubesInteraction_sortIndex": 0,
 	"INPUT_Config_0_glass_test_depthWrite": "false",
 	"INPUT_Config_0_glass_test_geometry": "World.QUAD",
 	"INPUT_Config_0_glass_test_name": "video",
@@ -1016,12 +1007,6 @@
 	"INPUT_Config_0_work_scene_customClass": "WorkSceneBackground",
 	"INPUT_Config_0_work_scene_name": "background",
 	"INPUT_Config_0_work_scene_renderOrder": 1,
-	"INPUT_Config_14_CleanRoom_transparent": false,
-	"INPUT_Config_14_CleanRoom_blending": "shader_normal_blending",
-	"INPUT_Config_14_CleanRoom_name": "hexagons",
-	"INPUT_Config_14_CleanRoom_parent": "sl_CleanRoom_group_0",
-	"INPUT_Config_14_CleanRoom_renderOrder": 1.5657142857142858,
-	"INPUT_Config_14_CleanRoom_sortIndex": 3,
 	"INPUT_Config_14_TreeScene_name": "rock_L",
 	"INPUT_Config_14_TreeScene_parent": "group_0",
 	"INPUT_Config_14_TreeScene_renderOrder": 1.7425,
@@ -1288,17 +1273,6 @@
 	"INPUT_Config_1_TreeScene_renderOrder": 1.33,
 	"INPUT_Config_1_TreeScene_shader": "TreeFBR",
 	"INPUT_Config_1_TreeScene_sortIndex": 4,
-	"INPUT_Config_1_TubesInteraction_visible": false,
-	"INPUT_Config_1_TubesInteraction_geometry": {
-		"filename": "",
-		"prefix": "",
-		"relative": "World.SPHERE",
-		"src": ""
-	},
-	"INPUT_Config_1_TubesInteraction_name": "orb",
-	"INPUT_Config_1_TubesInteraction_renderOrder": 1,
-	"INPUT_Config_1_TubesInteraction_shader": "TubeOrbShader",
-	"INPUT_Config_1_TubesInteraction_sortIndex": 1,
 	"INPUT_Config_1_glass_test_geometry": "body",
 	"INPUT_Config_1_glass_test_name": "object",
 	"INPUT_Config_1_glass_test_renderOrder": 2,
@@ -1393,9 +1367,6 @@
 	"INPUT_Config_23_home_scene_group": "scene",
 	"INPUT_Config_23_home_scene_name": "walls",
 	"INPUT_Config_23_home_scene_renderOrder": 13.2,
-	"INPUT_Config_2_Contact_name": "hexagons",
-	"INPUT_Config_2_Contact_renderOrder": 1,
-	"INPUT_Config_2_Contact_sortIndex": 1,
 	"INPUT_Config_2_CleanRoom_name": "prop",
 	"INPUT_Config_2_CleanRoom_parent": "sl_CleanRoom_group_0",
 	"INPUT_Config_2_CleanRoom_receiveLight": true,
@@ -1536,9 +1507,6 @@
 	"INPUT_Config_3_homeScene_shader": "ATPBR",
 	"INPUT_Config_3_homeScene_wildcard": "reflect",
 	"INPUT_Config_3_work_page_renderOrder": 4,
-	"INPUT_Config_4_Contact_name": "hexagons",
-	"INPUT_Config_4_Contact_renderOrder": 1,
-	"INPUT_Config_4_Contact_sortIndex": 1,
 	"INPUT_Config_4_CleanRoom_name": "glass",
 	"INPUT_Config_4_CleanRoom_blending": "shader_additive_blending",
 	"INPUT_Config_4_CleanRoom_custom": "",
@@ -2035,21 +2003,6 @@
 	"INPUT_P_Element_0_WorkDetailParticlescode_2_code": "#require(glscreenprojection.glsl)\n\nvec3 mpos = vec3(uModelMatrix * vec4(pos, 1.0));\nvec2 screenUV = getProjection(mpos, uProjMatrix);\nvec3 flow = vec3(texture2D(tFluid, screenUV).xy, 0.0);\napplyNormal(flow, uProjNormalMatrix);\npos += flow * 0.0001 * HZ * uMouseStrength * texture2D(tFluidMask, screenUV).r;",
 	"INPUT_P_Element_0_WorkDetailParticlescode_2_name": "Mouse Fluid",
 	"INPUT_P_Element_0_WorkDetailParticlescode_2_preset": "fluid",
-	"INPUT_P_Element_0_TubesInteraction_behavior_uniforms": "tVelocity: T\nuVelocityStrength: 1",
-	"INPUT_P_Element_0_TubesInteraction_behavior_codeCount": 1,
-	"INPUT_P_Element_0_TubesInteraction_behavior_data": "[\"code_1\"]",
-	"INPUT_P_Element_0_TubesInteraction_config_class": "TubeController",
-	"INPUT_P_Element_0_TubesInteraction_config_depth": "[-1,1]",
-	"INPUT_P_Element_0_TubesInteraction_config_height": "[-1,1]",
-	"INPUT_P_Element_0_TubesInteraction_config_output": "off",
-	"INPUT_P_Element_0_TubesInteraction_config_shader": "TubeShader",
-	"INPUT_P_Element_0_TubesInteraction_config_particleCount": "0",
-	"INPUT_P_Element_0_TubesInteraction_config_width": "[-1,1]",
-	"INPUT_P_Element_0_TubesInteraction_config_type": "lifecycle",
-	"INPUT_P_Element_0_TubesInteractioncode_1_uniforms": "\n        uCurlNoiseScale: 1\n        uCurlTimeScale: 0\n        uCurlNoiseSpeed: 0\n        ",
-	"INPUT_P_Element_0_TubesInteractioncode_1_code": "#require(curl.glsl)\n\n\nvec3 velocity = texture2D(tVelocity, vUv).xyz * uVelocityStrength;\npos += velocity * 0.1;\n\nvec3 curl = curlNoise(pos * uCurlNoiseScale*0.1 + (time * uCurlTimeScale * 0.1));\npos += curl * uCurlNoiseSpeed * 0.01 * HZ;",
-	"INPUT_P_Element_0_TubesInteractioncode_1_name": "Curl Noise",
-	"INPUT_P_Element_0_TubesInteractioncode_1_preset": "curl",
 	"INPUT_P_Element_0_particleTest_behavior_codeCount": 1,
 	"INPUT_P_Element_0_particleTest_behavior_data": "[\"code_1\"]",
 	"INPUT_P_Element_0_particleTest_config_width": "[-1,1]",
@@ -2188,7 +2141,6 @@
 	"INPUT_scenelayout_Work_data": "{\"layers\":8}",
 	"INPUT_scenelayout_Tester_data": "{\"layers\":0}",
 	"INPUT_scenelayout_TreeScene_data": "{\"layers\":22,\"groups\":0}",
-	"INPUT_scenelayout_TubesInteraction_data": "{\"layers\":1}",
 	"INPUT_scenelayout_glass_test_data": "{\"layers\":1}",
 	"INPUT_scenelayout_fluidsim_data": "{\"layers\":0}",
 	"INPUT_scenelayout_home_scene_data": "{\"layers\":26}",
@@ -2212,10 +2164,6 @@
 	"INPUT_test_tween_edit": "Editor",
 	"INPUT_test_tween_play": "Play",
 	"INPUT_test_tween_saved": true,
-	"INPUT_tubes_P_Element_0_TubesInteraction_lerp": "0.2",
-	"INPUT_tubes_P_Element_0_TubesInteraction_resetDelta": "1",
-	"INPUT_tubes_P_Element_0_TubesInteraction_segments": "12",
-	"INPUT_tubes_P_Element_0_TubesInteraction_sides": "3",
 	"JellyShader/JellyShader/Element_11_ParticleTest/_tx_tMap": {
 		"compressed": false,
 		"filename": "matcap-test.jpg",
@@ -2575,21 +2523,6 @@
 		0,
 		0
 	],
-	"MESH_Element_0_TubesInteractionposition": [
-		0,
-		0.886,
-		0
-	],
-	"MESH_Element_0_TubesInteractionrotation": [
-		0,
-		0,
-		0
-	],
-	"MESH_Element_0_TubesInteractionscale": [
-		1,
-		1,
-		1
-	],
 	"MESH_Element_0_home_sceneposition": [
 		0,
 		1.38,
@@ -2620,17 +2553,6 @@
 		1.6099999999999999,
 		1.6099999999999999
 	],
-	"MESH_Element_14_CleanRoomposition": [
-		0,
-		0.44,
-		-3
-	],
-	"MESH_Element_14_CleanRoomrotation": [
-		0,
-		0,
-		0
-	],
-	"MESH_Element_14_CleanRoomscale": [0, 0, 0],
 	"MESH_Element_14_TreeSceneposition": [
 		0,
 		0,
@@ -3006,21 +2928,6 @@
 		0,
 		0
 	],
-	"MESH_Element_1_TubesInteractionposition": [
-		0,
-		0,
-		0
-	],
-	"MESH_Element_1_TubesInteractionrotation": [
-		0,
-		0,
-		0
-	],
-	"MESH_Element_1_TubesInteractionscale": [
-		0.5,
-		0.5,
-		0.5
-	],
 	"MESH_Element_1_glass_testposition": [
 		0,
 		0,
@@ -3173,17 +3080,6 @@
 		0
 	],
 	"MESH_Element_23_CleanRoomscale": [0, 0, 0],
-	"MESH_Element_2_Contactposition": [
-		0,
-		0,
-		-5
-	],
-	"MESH_Element_2_Contactrotation": [
-		0,
-		0,
-		0
-	],
-	"MESH_Element_2_Contactscale": [0, 0, 0],
 	"MESH_Element_2_Aboutposition": [
 		0,
 		0,
@@ -4976,7 +4872,6 @@
 	"P_Element_0_LogoParticle_code_list_items": "[\"P_Element_0_LogoParticle_code_170270321644451-49d-b78-ff1\",\"P_Element_0_LogoParticle_code_17027031698733f-4c7-935-1b4\",\"P_Element_0_LogoParticle_code_17029242043488e-40d-bdd-ce6\"]",
 	"P_Element_0_ParticleTest_code_list_items": "[\"P_Element_0_ParticleTest_code_169948672586918-416-831-a5f\",\"P_Element_0_ParticleTest_code_1702411056300b5-428-aa4-afe\"]",
 	"P_Element_0_WorkDetailParticles_code_list_items": "[\"P_Element_0_WorkDetailParticles_code_170060128819536-468-8ec-16a\",\"P_Element_0_WorkDetailParticles_code_170060260305854-405-9df-dfd\"]",
-	"P_Element_0_TubesInteraction_code_list_items": "[\"P_Element_0_TubesInteraction_code_1703109741773dc-432-83b-7b7\"]",
 	"P_Element_0_particleTest_code_list_items": "[\"P_Element_0_particleTest_code_163531179665191-4a6-801-ffa\"]",
 	"P_Element_19_home_scene_code_list_items": "[\"P_Element_19_home_scene_code_162402577889111-43a-ba9-60b\",\"P_Element_19_home_scene_code_1623986534285aa-49f-b2a-efc\",\"P_Element_19_home_scene_code_1623987240129b9-4c5-a2c-acb\",\"P_Element_19_home_scene_code_162398723380570-47f-ab8-7d6\"]",
 	"P_Element_21_TreeScene_code_list_items": "[\"P_Element_21_TreeScene_code_1702666311683b9-450-ac8-bd2\"]",
@@ -5028,47 +4923,6 @@
 		0.506
 	],
 	"PhysicalShader/PhysicalShader/uUseLightmap": 0,
-	"ProtonTube/ProtonTube/thickness": 2,
-	"ProtonTube/TubeShader/TubeShader/_tx_tMRO": {
-		"hotreload": true,
-		"src": "assets/images/pbr/cliffs_MRO.png?1704405944984-compressedKtx2"
-	},
-	"ProtonTube/TubeShader/TubeShader/_tx_tMatcap": {
-		"hotreload": true,
-		"src": "assets/images/room/matcap-test.jpg?1704406116063-compressedKtx2"
-	},
-	"ProtonTube/TubeShader/TubeShader/_tx_tNormal": {
-		"compressed": false,
-		"filename": "alien_cracked_2_normal.png",
-		"prefix": "assets/images",
-		"relative": "assets/images",
-		"src": "assets/images/pbr/alien_cracked_2_normal.png",
-		"useCompressed": false
-	},
-	"ProtonTube/TubeShader/TubeShader/_txtMRO": {
-		"compressed": false,
-		"filename": "cliffs_MRO.png",
-		"prefix": "assets/images",
-		"relative": "assets/images",
-		"src": "assets/images/pbr/cliffs_MRO.png",
-		"useCompressed": false
-	},
-	"ProtonTube/TubeShader/TubeShader/_txtMatcap": {
-		"compressed": false,
-		"filename": "matcap-test.jpg",
-		"prefix": "assets/images",
-		"relative": "assets/images",
-		"src": "assets/images/room/matcap-test.jpg",
-		"useCompressed": false
-	},
-	"ProtonTube/TubeShader/TubeShader/_txtNormal": {
-		"compressed": false,
-		"filename": "alien_cracked_2_normal.png",
-		"prefix": "assets/images",
-		"relative": "assets/images",
-		"src": "assets/images/pbr/alien_cracked_2_normal.png",
-		"useCompressed": false
-	},
 	"RoomPBR/RoomPBR/Element_3_CleanRoom/_tx_tBaseColor": {
 		"compressed": "ktx2",
 		"filename": "Landscape_default_Basecolor.jpg",
@@ -6255,7 +6109,6 @@
 		0.8,
 		1.2
 	],
-	"am_AntimatterSpawn_Element_0_TubesInteractiondecay": 1.73,
 	"am_SplineParticleLife_Element_0_WorkDetailParticlesuMaxSDelay": 0,
 	"am_SplineParticleLife_Element_0_WorkDetailParticlesuFlowRange": [
 		1,
@@ -6275,10 +6128,6 @@
 	"am_ProtonAntimatterLifecycle_P_Element_0_BodyCoresuTemporalHashScale": 0.2,
 	"am_ProtonAntimatterLifecycle_P_Element_0_BodyCoresuVelNScale": 5,
 	"am_ProtonAntimatterLifecycle_P_Element_0_BodyCoresuVelNSpeed": 1,
-	"am_ProtonAntimatterLifecycle_P_Element_0_TubesInteractionuCurlNoiseScale": 0.5,
-	"am_ProtonAntimatterLifecycle_P_Element_0_TubesInteractionuCurlNoiseSpeed": 5,
-	"am_ProtonAntimatterLifecycle_P_Element_0_TubesInteractionuCurlTimeScale": 1,
-	"am_ProtonAntimatterLifecycle_P_Element_0_TubesInteractionuVelocityStrength": 1,
 	"am_ProtonAntimatter_P_Element_0_LogoParticleuCurlNoiseScale": 1,
 	"am_ProtonAntimatter_P_Element_0_LogoParticleuCurlNoiseSpeed": 2,
 	"am_ProtonAntimatter_P_Element_0_LogoParticleuCurlTimeScale": 0.5,
