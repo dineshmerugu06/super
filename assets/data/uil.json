@@ -2693,11 +2693,7 @@
 		1,
 		1
 	],
-	"MESH_Element_0_LogoParticlescale": [
-		2,
-		2,
-		2
-	],
+	"MESH_Element_0_LogoParticlescale": [0, 0, 0],
 	"MESH_Element_0_LogoParticleposition": [
 		0,
 		0,
@@ -3003,11 +2999,7 @@
 		180,
 		0
 	],
-	"MESH_Element_18_TreeScenescale": [
-		1,
-		1,
-		1
-	],
+	"MESH_Element_18_TreeScenescale": [0, 0, 0],
 	"MESH_Element_18_home_sceneposition": [
 		0,
 		1.37,
@@ -3273,11 +3265,7 @@
 		0,
 		180
 	],
-	"MESH_Element_1_Workscale": [
-		4,
-		2.6,
-		1
-	],
+	"MESH_Element_1_Workscale": [0, 0, 0],
 	"MESH_Element_1_TreeScenescale": [
 		1,
 		1,
@@ -3513,11 +3501,7 @@
 		0,
 		0
 	],
-	"MESH_Element_2_Aboutscale": [
-		3,
-		3,
-		3.4
-	],
+	"MESH_Element_2_Aboutscale": [0, 0, 0],
 	"MESH_Element_2_Homeposition": [
 		0,
 		5,
@@ -3663,11 +3647,7 @@
 		0,
 		0
 	],
-	"MESH_Element_3_Workscale": [
-		4,
-		2,
-		1
-	],
+	"MESH_Element_3_Workscale": [0, 0, 0],
 	"MESH_Element_3_TreeScenescale": [
 		1.7,
 		1.25,
@@ -4053,11 +4033,7 @@
 		0,
 		0
 	],
-	"MESH_Element_7_Workscale": [
-		4,
-		2,
-		1
-	],
+	"MESH_Element_7_Workscale": [0, 0, 0],
 	"MESH_Element_7_TreeScenescale": [
 		1,
 		1,
