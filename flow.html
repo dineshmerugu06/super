@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Work — Flowing Screens · Merugu Dinesh Kumar</title>
+<style>
+  :root{ --ink:#dceef6; --dim:#8fd0f0; }
+  *{ margin:0; padding:0; box-sizing:border-box; }
+  html,body{ height:100%; overflow:hidden; background:#0d3050; }
+  body{ font-family:"Avenir Next","Segoe UI",system-ui,sans-serif; color:var(--ink);
+    background:radial-gradient(ellipse at 50% 120%, #1e5b8a 0%, #0d3050 55%, #081c30 100%); }
+  header{ position:fixed; top:26px; left:32px; z-index:5; pointer-events:none; }
+  header .kicker{ font-size:11px; letter-spacing:.34em; color:var(--dim); text-transform:uppercase; }
+  header h1{ font-size:30px; font-weight:800; letter-spacing:.14em; margin-top:4px; }
+  body.embed{ background:transparent; }
+  body.embed header, body.embed #hint{ display:none; }
+  #hint{ position:fixed; left:50%; bottom:24px; transform:translateX(-50%); z-index:5;
+    font-size:11px; letter-spacing:.22em; color:rgba(220,238,246,.55); text-transform:uppercase; pointer-events:none; }
+  #track{ position:absolute; left:0; top:50%; transform:translateY(-50%); height:43.5vh; width:100%;
+    display:flex; flex-direction:row; gap:40px; padding-left:6vw; will-change:contents; }
+  .card{ position:absolute; top:0; left:0; height:43.5vh; border-radius:20px; flex:none;
+    cursor:pointer; overflow:hidden; transform-origin:50% 50%;
+    box-shadow:0 30px 60px rgba(0,0,0,.45), inset 0 0 0 1px rgba(220,238,246,.14);
+    background:#10222e; }
+  .card .cover{ position:absolute; inset:0; }
+  .card .idx{ position:absolute; top:18px; right:22px; font-size:13px; letter-spacing:.3em; color:rgba(255,255,255,.65); }
+  .card .meta{ position:absolute; left:22px; bottom:20px; right:22px; }
+  .card .meta h2{ font-size:clamp(17px,1.6vw,24px); font-weight:700; letter-spacing:.04em; line-height:1.15;
+    color:#fff; text-shadow:0 2px 14px rgba(0,0,0,.5); }
+  .card .meta p{ margin-top:6px; font-size:11px; letter-spacing:.18em; text-transform:uppercase; color:rgba(255,255,255,.75); }
+  .card .sheen{ position:absolute; inset:0; pointer-events:none;
+    background:linear-gradient(115deg, rgba(255,255,255,.16), transparent 42%); }
+</style>
+</head>
+<body>
+<header>
+  <div class="kicker">Selected Work</div>
+  <h1>PROJECTS</h1>
+</header>
+<div id="track"></div>
+<div id="hint">Scroll or drag — the screens flow</div>
+
+<script type="module">
+/* Flowing-screens engine, re-implemented from the mechanics observed in
+   jesperlandberg.com's bundles:
+   - one row of screens, positions WRAPPED around the row's total span (infinite)
+   - wheel/drag feed a virtual scroll TARGET (the page itself never scrolls)
+   - the target is soft-clamped with tanh (~1 viewport of elastic lead)
+   - the actual offset LERPs toward the target (inertia; keeps gliding, then settles)
+   - the lag (target - actual) is the VELOCITY: it bends the screens like
+     flexible sheets, and the bend dies away as the motion settles.        */
+
+const FALLBACK = [
+  { name: 'IMPÉRIUM – Multi-AI-Agent Command System', slug: 'imperium', uiColor: 'e8b558', tags: ['AI Agents'] },
+  { name: 'KeyMind – Password Automation Tool', slug: 'keymind', uiColor: '4aabcc', tags: ['Automation'] },
+  { name: 'Auction Space', slug: 'auction-space', uiColor: '72b2d5', tags: ['Realtime'] },
+  { name: 'College Bus Tracking System', slug: 'college-bus-tracking-system', uiColor: '1e5b8a', tags: ['Tracking'] },
+];
+const ASPECTS = [16/10, 4/3, 16/9, 3/2];
+
+if (new URLSearchParams(location.search).has('embed')) document.body.classList.add('embed');
+const track = document.getElementById('track');
+let projects = FALLBACK;
+try {
+  const r = await fetch('assets/data/cms/projects.json');
+  if (r.ok) { const d = await r.json(); if (Array.isArray(d) && d.length) projects = d; }
+} catch (e) { /* fallback stays */ }
+
+const cards = projects.map((p, i) => {
+  const el = document.createElement('article');
+  el.className = 'card';
+  const color = (p.uiColor || '4aabcc').replace('#', '');
+  const title = (p.name || p.slug || 'Project').split('–')[0].trim();
+  const sub = (p.name || '').includes('–') ? p.name.split('–')[1].trim() : (p.clientName || '');
+  const tags = Array.isArray(p.tags) ? p.tags.map(t => typeof t === 'string' ? t : (t.name || '')).filter(Boolean).join(' · ') : (typeof p.tags === 'string' ? p.tags : '');
+  el.innerHTML = `<div class="cover" style="background:
+      radial-gradient(ellipse at 78% 12%, #${color}cc, transparent 55%),
+      linear-gradient(150deg, #${color} 0%, #10222e 78%)"></div>
+    <div class="idx">0${i + 1}</div>
+    <div class="meta"><h2>${title}</h2><p>${sub || tags}</p></div>
+    <div class="sheen"></div>`;
+  el.style.aspectRatio = ASPECTS[i % ASPECTS.length];
+  track.appendChild(el);
+  return el;
+});
+
+// Measure bases after layout
+let items = [], span = 0;
+function measure() {
+  const gap = 40, pad = innerWidth * 0.06;
+  let x = pad;
+  items = cards.map(el => {
+    const w = el.getBoundingClientRect().width || el.offsetHeight * parseFloat(el.style.aspectRatio);
+    const it = { el, base: x, w };
+    x += w + gap;
+    return it;
+  });
+  span = x - pad; // full loop length (includes trailing gap)
+}
+measure();
+addEventListener('resize', measure);
+
+// Virtual scroll state — target t, actual a (his names, his math)
+let t = 0, a = 0, velocity = 0;
+function feed(delta) {
+  t += delta;
+  const lead = t - a, ww = innerWidth;
+  t = a + Math.tanh(lead / ww) * ww; // elastic: never more than ~1 viewport ahead
+}
+addEventListener('wheel', e => { feed(e.deltaY + e.deltaX); }, { passive: true });
+addEventListener('message', e => { if (e.data && e.data.type === 'flowScroll') feed(e.data.delta); });
+let dragging = false, lastX = 0;
+addEventListener('pointerdown', e => { dragging = true; lastX = e.clientX; });
+addEventListener('pointermove', e => { if (dragging) { feed((lastX - e.clientX) * 2.2); lastX = e.clientX; } });
+addEventListener('pointerup', () => dragging = false);
+addEventListener('touchmove', e => e.preventDefault(), { passive: false });
+
+const wrap = (v, s) => ((v % s) + s) % s;
+let last = performance.now();
+function frame(now) {
+  const dt = Math.min(50, now - last); last = now;
+  const ratio = dt / 16.667;
+  const f = 1 - Math.pow(1 - 0.1, ratio);       // his 0.1/tick lerp, framerate-normalized
+  a += (t - a) * f;
+  a = Math.round(a * 100) / 100;
+  velocity = t - a;                              // the lag IS the velocity
+  const bend = Math.max(-16, Math.min(16, velocity * 0.05));
+  for (const it of items) {
+    let x = wrap(it.base - a, span);
+    if (x > innerWidth) x -= span;               // allow sitting off the left edge
+    // The arched track (seen on his site): the centre screen is largest,
+    // highest and front-facing; toward the edges screens shrink, sink and
+    // turn away — the row bends like a river around the viewer.
+    const rel = Math.max(-1.35, Math.min(1.35, (x + it.w / 2 - innerWidth / 2) / (innerWidth / 2)));
+    const d = Math.min(1, Math.abs(rel));
+    const scale = 1.07 - 0.25 * d * d;
+    const yArc = d * d * 34;
+    const turn = rel * -21 - bend * 0.7;
+    it.el.style.transform =
+      `translate3d(${x}px, ${yArc.toFixed(1)}px, 0) perspective(950px) rotateY(${turn.toFixed(2)}deg) skewX(${(bend * 0.30).toFixed(2)}deg) scale(${scale.toFixed(3)})`;
+    it.el.style.zIndex = String(100 - Math.round(d * 50));
+  }
+  requestAnimationFrame(frame);
+}
+requestAnimationFrame(frame);
+window.__flowReady = true;
+</script>
+</body>
+</html>
