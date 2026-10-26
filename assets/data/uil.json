@@ -1017,12 +1017,6 @@
 	"INPUT_Config_0_Tester_renderOrder": 0,
 	"INPUT_Config_0_Tester_sortIndex": 0,
 	"INPUT_Config_0_TreeScene_name": "test",
-	"INPUT_Config_0_TreeScene_geometry": {
-		"filename": "spine.bin",
-		"prefix": "",
-		"relative": "assets/geometry/spine",
-		"src": "assets/geometry/spine/spine.bin"
-	},
 	"INPUT_Config_0_TreeScene_renderOrder": 0,
 	"INPUT_Config_0_TreeScene_shader": "TreeFBR",
 	"INPUT_Config_0_TreeScene_sortIndex": 0,
@@ -1178,12 +1172,6 @@
 	"INPUT_Config_18_TreeScene_transparent": true,
 	"INPUT_Config_18_TreeScene_visible": false,
 	"INPUT_Config_18_TreeScene_blending": "shader_normal_blending",
-	"INPUT_Config_18_TreeScene_geometry": {
-		"filename": "logo.json",
-		"prefix": "",
-		"relative": "assets/geometry/home",
-		"src": "assets/geometry/home/logo.json"
-	},
 	"INPUT_Config_18_TreeScene_name": "logo",
 	"INPUT_Config_18_TreeScene_parent": "sl_TreeScene_group_0",
 	"INPUT_Config_18_TreeScene_renderOrder": 1.0761538461538462,
@@ -1265,12 +1253,6 @@
 	"INPUT_Config_12_CleanRoom_visible": false,
 	"INPUT_Config_12_CleanRoom_blending": "shader_additive_blending",
 	"INPUT_Config_12_CleanRoom_custom": "LogoParticle",
-	"INPUT_Config_12_CleanRoom_geometry": {
-		"filename": "at_logo.bin",
-		"prefix": "",
-		"relative": "assets/geometry/particles",
-		"src": "assets/geometry/particles/at_logo.bin"
-	},
 	"INPUT_Config_12_CleanRoom_name": "logo",
 	"INPUT_Config_12_CleanRoom_parent": "sl_CleanRoom_group_0",
 	"INPUT_Config_12_CleanRoom_renderOrder": 1.165,
@@ -1518,12 +1500,6 @@
 	"INPUT_Config_2_CleanRoom_sortIndex": 4,
 	"INPUT_Config_2_CleanRoom_visible": false,
 	"INPUT_Config_2_About_blending": "shader_normal_blending",
-	"INPUT_Config_2_About_geometry": {
-		"filename": "AT_logo.bin",
-		"prefix": "",
-		"relative": "assets/geometry/logo",
-		"src": "assets/geometry/logo/AT_logo.bin"
-	},
 	"INPUT_Config_2_About_depthTest": true,
 	"INPUT_Config_2_About_depthWrite": true,
 	"INPUT_Config_2_About_name": "logo",
@@ -1804,12 +1780,6 @@
 	"INPUT_Config_5_WorkDetailContent_renderOrder": 0,
 	"INPUT_Config_5_WorkDetailContent_transparent": true,
 	"INPUT_Config_5_WorkDetailContent_visible": false,
-	"INPUT_Config_5_Work_geometry": {
-		"filename": "spine.bin",
-		"prefix": "",
-		"relative": "assets/geometry/spine",
-		"src": "assets/geometry/spine/spine.bin"
-	},
 	"INPUT_Config_5_Work_name": "spine",
 	"INPUT_Config_5_Work_renderOrder": 5,
 	"INPUT_Config_5_Work_script": "",
@@ -1987,12 +1957,6 @@
 	"INPUT_Config_8_ParticleTest_blending": "shader_normal_blending",
 	"INPUT_Config_8_ParticleTest_depthWrite": true,
 	"INPUT_Config_8_ParticleTest_depthTest": true,
-	"INPUT_Config_8_ParticleTest_geometry": {
-		"filename": "AT_logo.bin",
-		"prefix": "",
-		"relative": "assets/geometry/logo",
-		"src": "assets/geometry/logo/AT_logo.bin"
-	},
 	"INPUT_Config_8_ParticleTest_renderOrder": 6,
 	"INPUT_Config_8_ParticleTest_shader": "HomeLogoShader|home",
 	"INPUT_Config_8_ParticleTest_sortIndex": 6,
@@ -2017,12 +1981,6 @@
 	"INPUT_Config_8_Work_side": "shader_front_side",
 	"INPUT_Config_8_Work_sortIndex": 4,
 	"INPUT_Config_8_TreeScene_name": "cables",
-	"INPUT_Config_8_TreeScene_geometry": {
-		"filename": "",
-		"prefix": "",
-		"relative": "tree_room/cables.bin",
-		"src": ""
-	},
 	"INPUT_Config_8_TreeScene_parent": "sl_TreeScene_group_0",
 	"INPUT_Config_8_TreeScene_renderOrder": 1.66,
 	"INPUT_Config_8_TreeScene_shader": "TreeFBR",
@@ -4618,62 +4576,6 @@
 	},
 	"SceneLayout/SceneLayout/Element_2_homeScene/_tx_tMap": "{\"src\":\"assets/images/scene_1/walls.jpg?1651014713711\",\"hotreload\":true}",
 	"SceneLayout/SceneLayout/Element_3_homeScene/_tx_tMap": "{\"src\":\"assets/images/scene_1/floor.jpg?1651014545365\",\"hotreload\":true}",
-	"SpineShader/SpineShader/Element_5_Work/_tx_tBaseColor": {
-		"compressed": false,
-		"filename": "infinian_atlas.png",
-		"prefix": "assets/images",
-		"relative": "assets/images",
-		"src": "assets/images/pbr/infinian_atlas.png",
-		"useCompressed": false
-	},
-	"SpineShader/SpineShader/Element_5_Work/_tx_tMRO": {
-		"compressed": false,
-		"filename": "uniform_mro.png",
-		"prefix": "assets/images",
-		"relative": "assets/images",
-		"src": "assets/images/pbr/uniform_mro.png",
-		"useCompressed": false
-	},
-	"SpineShader/SpineShader/Element_5_Work/_tx_tMatcap": {
-		"hotreload": true,
-		"src": "assets/images/pbr/atlas_matcap.png"
-	},
-	"SpineShader/SpineShader/Element_5_Work/_tx_tNormal": {
-		"hotreload": true,
-		"src": "assets/images/pbr/flat_normal.png"
-	},
-	"SpineShader/SpineShader/Element_5_Work/_txtMRO": {
-		"compressed": false,
-		"filename": "uniform_mro.png",
-		"prefix": "assets/images",
-		"relative": "assets/images",
-		"src": "assets/images/pbr/uniform_mro.png",
-		"useCompressed": false
-	},
-	"SpineShader/SpineShader/Element_5_Work/_txtMatcap": {
-		"compressed": false,
-		"filename": "uniform_mro.png",
-		"prefix": "assets/images",
-		"relative": "assets/images",
-		"src": "assets/images/pbr/atlas_matcap.png",
-		"useCompressed": false
-	},
-	"SpineShader/SpineShader/Element_5_Work/_txtNormal": {
-		"compressed": false,
-		"filename": "flat_normal.png",
-		"prefix": "assets/images",
-		"relative": "assets/images",
-		"src": "assets/images/pbr/flat_normal.png",
-		"useCompressed": false
-	},
-	"SpineShader/SpineShader/Element_5_Work/_txtBaseColor": {
-		"compressed": false,
-		"filename": "flat_normal.png",
-		"prefix": "assets/images",
-		"relative": "assets/images",
-		"src": "assets/images/pbr/infinian_atlas.png",
-		"useCompressed": false
-	},
 	"SpineShader/SpineShader/Element_5_Work/uNormalStrength": 0.19,
 	"SpineShader/SpineShader/Element_5_Work/uColor": "#ffffff",
 	"SpineShader/SpineShader/Element_5_Work/uLight": [
