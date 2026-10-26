@@ -56,20 +56,28 @@ const center = box.getCenter(new THREE.Vector3());
 const radius = box.getSize(new THREE.Vector3()).length() / 2;
 // Full figure in frame with breathing room; camera a touch low so he
 // looms slightly — a presiding statue, not a product shot.
-camera.position.set(center.x + radius * 0.38, center.y - radius * 0.04, center.z + radius * 1.92);
-camera.lookAt(center.x, center.y + radius * 0.05, center.z);
+camera.position.set(center.x + radius * 0.38, center.y - radius * 0.04, center.z + radius * 1.80);
+camera.lookAt(center.x, center.y + radius * 0.02, center.z);
 
 const PRM = matchMedia('(prefers-reduced-motion: reduce)').matches;
+// Scroll flow: the parent page reports Work-list scroll progress (0..1);
+// the figure drifts and turns WITH the list, the way the old spine
+// column used to travel — eased, and reversible when scrolling back up.
+let prog = 0, progTarget = 0;
+addEventListener('message', e => {
+  if (e.data && e.data.type === 'workScroll') progTarget = Math.min(1, Math.max(0, e.data.progress));
+});
 const clock = new THREE.Clock();
 renderer.setAnimationLoop(() => {
   const dt = clock.getDelta();
   const t = clock.elapsedTime;
   mixer.update(dt);
+  prog += (progTarget - prog) * Math.min(1, dt * 3.5);
   if (!PRM) {
-    // Gentle sway instead of a full spin: he stays facing the visitor,
-    // turning just enough to feel three-dimensional and alive.
-    gltf.scene.rotation.y = Math.sin(t * 0.22) * 0.45;
-    gltf.scene.position.y = Math.sin(t * 0.8) * 0.07; // faint hover-breath
+    // Gentle sway (stays facing the visitor) + a scroll-driven turn and
+    // rise/fall, so he feels carried by the list instead of pinned to it.
+    gltf.scene.rotation.y = Math.sin(t * 0.22) * 0.30 + prog * 0.85;
+    gltf.scene.position.y = Math.sin(t * 0.8) * 0.07 + prog * 1.05 - 0.15;
   }
   renderer.render(scene, camera);
 });
