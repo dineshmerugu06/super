@@ -747,22 +747,6 @@
 		"src": "assets/images/pbr/alien_cracked_2_normal.png",
 		"useCompressed": false
 	},
-	"HomeLogoShader/HomeLogoShader/Element_18_TreeScene/_tx_tBaseColor": {
-		"compressed": false,
-		"filename": "CABLES___CyclesBake_COMBINED.png",
-		"prefix": "assets/images",
-		"relative": "assets/images",
-		"src": "assets/images/tree_room/CABLES___CyclesBake_COMBINED.png",
-		"useCompressed": false
-	},
-	"HomeLogoShader/HomeLogoShader/Element_18_TreeScene/_tx_tMRO": {
-		"compressed": false,
-		"filename": "CABLES___PBR_AT_MRO.jpg",
-		"prefix": "assets/images",
-		"relative": "assets/images",
-		"src": "assets/images/tree_room/CABLES___PBR_AT_MRO.jpg",
-		"useCompressed": false
-	},
 	"HomeLogoShader/HomeLogoShader/Element_18_TreeScene/_tx_tMap": {
 		"hotreload": true,
 		"src": "assets/images/room/matcap-test.jpg?1704406116063-compressedKtx2"
@@ -775,22 +759,6 @@
 		"src": "assets/images/room/matcap-test.jpg",
 		"useCompressed": false
 	},
-	"HomeLogoShader/HomeLogoShader/Element_18_TreeScene/_tx_tNormal": {
-		"compressed": false,
-		"filename": "CABLES___PBR_Normal.jpg",
-		"prefix": "assets/images",
-		"relative": "assets/images",
-		"src": "assets/images/tree_room/CABLES___PBR_Normal.jpg",
-		"useCompressed": false
-	},
-	"HomeLogoShader/HomeLogoShader/Element_18_TreeScene/_txtMRO": {
-		"compressed": false,
-		"filename": "CABLES___PBR_AT_MRO.jpg",
-		"prefix": "assets/images",
-		"relative": "assets/images",
-		"src": "assets/images/tree_room/CABLES___PBR_AT_MRO.jpg",
-		"useCompressed": false
-	},
 	"HomeLogoShader/HomeLogoShader/Element_18_TreeScene/_txtMap": {
 		"compressed": "ktx2",
 		"filename": "matcap-test.jpg",
@@ -798,14 +766,6 @@
 		"relative": "assets/images",
 		"src": "assets/images/room/matcap-test.jpg",
 		"useCompressed": true
-	},
-	"HomeLogoShader/HomeLogoShader/Element_18_TreeScene/_txtNormal": {
-		"compressed": false,
-		"filename": "CABLES___PBR_Normal.jpg",
-		"prefix": "assets/images",
-		"relative": "assets/images",
-		"src": "assets/images/tree_room/CABLES___PBR_Normal.jpg",
-		"useCompressed": false
 	},
 	"HomeLogoShader/HomeLogoShader/Element_2_About/_tx_tMap": {
 		"hotreload": true,
@@ -916,12 +876,6 @@
 	"INPUT_Config_0_ContactUs_renderOrder": 0,
 	"INPUT_Config_0_ContactUs_sortIndex": 0,
 	"INPUT_Config_0_CleanRoom_name": "floor",
-	"INPUT_Config_0_CleanRoom_geometry": {
-		"filename": "floor.bin",
-		"prefix": "",
-		"relative": "room",
-		"src": "room/floor.bin"
-	},
 	"INPUT_Config_0_CleanRoom_parent": "sl_CleanRoom_group_0",
 	"INPUT_Config_0_CleanRoom_receiveLight": true,
 	"INPUT_Config_0_CleanRoom_renderOrder": 2.495,
@@ -1069,12 +1023,6 @@
 	"INPUT_Config_14_CleanRoom_parent": "sl_CleanRoom_group_0",
 	"INPUT_Config_14_CleanRoom_renderOrder": 1.5657142857142858,
 	"INPUT_Config_14_CleanRoom_sortIndex": 3,
-	"INPUT_Config_14_TreeScene_geometry": {
-		"filename": "",
-		"prefix": "",
-		"relative": "tree_room/rock_L.bin",
-		"src": ""
-	},
 	"INPUT_Config_14_TreeScene_name": "rock_L",
 	"INPUT_Config_14_TreeScene_parent": "group_0",
 	"INPUT_Config_14_TreeScene_renderOrder": 1.7425,
@@ -1096,12 +1044,6 @@
 	"INPUT_Config_15_CleanRoom_parent": "sl_CleanRoom_group_0",
 	"INPUT_Config_15_CleanRoom_renderOrder": 1,
 	"INPUT_Config_15_CleanRoom_sortIndex": 0,
-	"INPUT_Config_15_TreeScene_geometry": {
-		"filename": "",
-		"prefix": "",
-		"relative": "tree_room/rock_R.bin",
-		"src": ""
-	},
 	"INPUT_Config_15_TreeScene_name": "rock_R",
 	"INPUT_Config_15_TreeScene_parent": "group_0",
 	"INPUT_Config_15_TreeScene_renderOrder": 1.8250000000000002,
@@ -1129,12 +1071,6 @@
 	"INPUT_Config_16_CleanRoom_shader": "WaterCeilingShader",
 	"INPUT_Config_16_CleanRoom_sortIndex": 4,
 	"INPUT_Config_16_TreeScene_visible": false,
-	"INPUT_Config_16_TreeScene_geometry": {
-		"filename": "",
-		"prefix": "",
-		"relative": "tree_room/tree_leaves.bin",
-		"src": ""
-	},
 	"INPUT_Config_16_TreeScene_name": "tree_leaves",
 	"INPUT_Config_16_TreeScene_parent": "group_0",
 	"INPUT_Config_16_TreeScene_renderOrder": 1.913846153846154,
@@ -1149,12 +1085,6 @@
 	"INPUT_Config_17_CleanRoom_parent": "sl_CleanRoom_group_0",
 	"INPUT_Config_17_CleanRoom_renderOrder": 1.282857142857143,
 	"INPUT_Config_17_CleanRoom_sortIndex": 2,
-	"INPUT_Config_17_TreeScene_geometry": {
-		"filename": "",
-		"prefix": "",
-		"relative": "tree_room/mask.bin",
-		"src": ""
-	},
 	"INPUT_Config_17_TreeScene_name": "occluder",
 	"INPUT_Config_17_TreeScene_parent": "group_0",
 	"INPUT_Config_17_TreeScene_renderOrder": 1.99,
@@ -1271,12 +1201,6 @@
 	"INPUT_Config_12_home_scene_visible": "true",
 	"INPUT_Config_13_CleanRoom_transparent": true,
 	"INPUT_Config_13_CleanRoom_custom": "",
-	"INPUT_Config_13_CleanRoom_geometry": {
-		"filename": "hexagon.json",
-		"prefix": "",
-		"relative": "assets/geometry/home/hexgrid",
-		"src": "assets/geometry/home/hexgrid/hexagon.json"
-	},
 	"INPUT_Config_13_CleanRoom_name": "hexagons",
 	"INPUT_Config_13_CleanRoom_renderOrder": 10,
 	"INPUT_Config_13_CleanRoom_script": "InstanceMesh",
@@ -1300,12 +1224,6 @@
 	"INPUT_Config_1_ContactUs_renderOrder": 1,
 	"INPUT_Config_1_ContactUs_sortIndex": 1,
 	"INPUT_Config_1_CleanRoom_name": "walls",
-	"INPUT_Config_1_CleanRoom_geometry": {
-		"filename": "walls.bin",
-		"prefix": "",
-		"relative": "room",
-		"src": "room/walls.bin"
-	},
 	"INPUT_Config_1_CleanRoom_parent": "sl_CleanRoom_group_0",
 	"INPUT_Config_1_CleanRoom_receiveLight": false,
 	"INPUT_Config_1_CleanRoom_renderOrder": 2.495,
@@ -1367,12 +1285,6 @@
 	"INPUT_Config_1_Work_side": "shader_front_side",
 	"INPUT_Config_1_Work_sortIndex": 1,
 	"INPUT_Config_1_TreeScene_name": "sand",
-	"INPUT_Config_1_TreeScene_geometry": {
-		"filename": "",
-		"prefix": "",
-		"relative": "tree_room/sand.bin",
-		"src": ""
-	},
 	"INPUT_Config_1_TreeScene_parent": "sl_TreeScene_group_0",
 	"INPUT_Config_1_TreeScene_renderOrder": 1.33,
 	"INPUT_Config_1_TreeScene_shader": "TreeFBR",
@@ -1487,12 +1399,6 @@
 	"INPUT_Config_2_Contact_renderOrder": 1,
 	"INPUT_Config_2_Contact_sortIndex": 1,
 	"INPUT_Config_2_CleanRoom_name": "prop",
-	"INPUT_Config_2_CleanRoom_geometry": {
-		"filename": "prop.bin",
-		"prefix": "",
-		"relative": "room",
-		"src": "room/prop.bin"
-	},
 	"INPUT_Config_2_CleanRoom_parent": "sl_CleanRoom_group_0",
 	"INPUT_Config_2_CleanRoom_receiveLight": true,
 	"INPUT_Config_2_CleanRoom_renderOrder": 1.77,
@@ -1543,12 +1449,6 @@
 	"INPUT_Config_2_Work_renderOrder": 2,
 	"INPUT_Config_2_Work_sortIndex": 2,
 	"INPUT_Config_2_TreeScene_name": "walls",
-	"INPUT_Config_2_TreeScene_geometry": {
-		"filename": "",
-		"prefix": "",
-		"relative": "tree_room/walls.bin",
-		"src": ""
-	},
 	"INPUT_Config_2_TreeScene_parent": "sl_TreeScene_group_0",
 	"INPUT_Config_2_TreeScene_renderOrder": 1.4125,
 	"INPUT_Config_2_TreeScene_shader": "TreeFBR",
@@ -1576,12 +1476,6 @@
 	"INPUT_Config_3_Contact_renderOrder": 0,
 	"INPUT_Config_3_Contact_sortIndex": 0,
 	"INPUT_Config_3_CleanRoom_name": "land",
-	"INPUT_Config_3_CleanRoom_geometry": {
-		"filename": "land.bin",
-		"prefix": "",
-		"relative": "room",
-		"src": "room/land.bin"
-	},
 	"INPUT_Config_3_CleanRoom_parent": "sl_CleanRoom_group_0",
 	"INPUT_Config_3_CleanRoom_receiveLight": true,
 	"INPUT_Config_3_CleanRoom_renderOrder": 1.7425,
@@ -1629,12 +1523,6 @@
 	"INPUT_Config_3_Work_side": "shader_double_side",
 	"INPUT_Config_3_Work_sortIndex": 3,
 	"INPUT_Config_3_TreeScene_name": "structure",
-	"INPUT_Config_3_TreeScene_geometry": {
-		"filename": "",
-		"prefix": "",
-		"relative": "tree_room/structure.bin",
-		"src": ""
-	},
 	"INPUT_Config_3_TreeScene_parent": "sl_TreeScene_group_0",
 	"INPUT_Config_3_TreeScene_renderOrder": 1.495,
 	"INPUT_Config_3_TreeScene_shader": "TreeFBR",
@@ -1657,12 +1545,6 @@
 	"INPUT_Config_4_CleanRoom_name": "glass",
 	"INPUT_Config_4_CleanRoom_blending": "shader_additive_blending",
 	"INPUT_Config_4_CleanRoom_custom": "",
-	"INPUT_Config_4_CleanRoom_geometry": {
-		"filename": "",
-		"prefix": "",
-		"relative": "World.BOX",
-		"src": ""
-	},
 	"INPUT_Config_4_CleanRoom_parent": "sl_CleanRoom_group_0",
 	"INPUT_Config_4_CleanRoom_renderOrder": 2.7424999999999997,
 	"INPUT_Config_4_CleanRoom_shader": "CleanRoomGlass",
@@ -1713,12 +1595,6 @@
 	"INPUT_Config_4_Work_shader": "WorkTubeShader",
 	"INPUT_Config_4_Work_sortIndex": 4,
 	"INPUT_Config_4_TreeScene_name": "tree_trunk",
-	"INPUT_Config_4_TreeScene_geometry": {
-		"filename": "",
-		"prefix": "",
-		"relative": "tree_room/tree_trunk.bin",
-		"src": ""
-	},
 	"INPUT_Config_4_TreeScene_parent": "sl_TreeScene_group_0",
 	"INPUT_Config_4_TreeScene_renderOrder": 1.456923076923077,
 	"INPUT_Config_4_TreeScene_shader": "TreeFBR",
@@ -1747,12 +1623,6 @@
 	"INPUT_Config_5_Contact_renderOrder": 2,
 	"INPUT_Config_5_Contact_sortIndex": 2,
 	"INPUT_Config_5_CleanRoom_name": "light",
-	"INPUT_Config_5_CleanRoom_geometry": {
-		"filename": "light.bin",
-		"prefix": "",
-		"relative": "room",
-		"src": "room/light.bin"
-	},
 	"INPUT_Config_5_CleanRoom_parent": "sl_CleanRoom_group_0",
 	"INPUT_Config_5_CleanRoom_receiveShadow": false,
 	"INPUT_Config_5_CleanRoom_renderOrder": 2,
@@ -1786,12 +1656,6 @@
 	"INPUT_Config_5_Work_shader": "SpineShader",
 	"INPUT_Config_5_Work_sortIndex": 5,
 	"INPUT_Config_5_TreeScene_name": "rocky_soil",
-	"INPUT_Config_5_TreeScene_geometry": {
-		"filename": "",
-		"prefix": "",
-		"relative": "tree_room/rocky_soil.bin",
-		"src": ""
-	},
 	"INPUT_Config_5_TreeScene_parent": "sl_TreeScene_group_0",
 	"INPUT_Config_5_TreeScene_renderOrder": 1.5775000000000001,
 	"INPUT_Config_5_TreeScene_shader": "TreeFBR",
@@ -1817,12 +1681,6 @@
 	"INPUT_Config_6_CleanRoom_castShadow": false,
 	"INPUT_Config_6_CleanRoom_depthWrite": true,
 	"INPUT_Config_6_CleanRoom_depthTest": true,
-	"INPUT_Config_6_CleanRoom_geometry": {
-		"filename": "caustic_plane.bin",
-		"prefix": "",
-		"relative": "bush.bin",
-		"src": "bush.bin/caustic_plane.bin"
-	},
 	"INPUT_Config_6_CleanRoom_receiveShadow": false,
 	"INPUT_Config_6_CleanRoom_renderOrder": 6,
 	"INPUT_Config_6_CleanRoom_script": "InstanceMesh",
@@ -1864,12 +1722,6 @@
 	"INPUT_Config_6_Work_renderOrder": 6,
 	"INPUT_Config_6_Work_sortIndex": 6,
 	"INPUT_Config_6_TreeScene_name": "water",
-	"INPUT_Config_6_TreeScene_geometry": {
-		"filename": "",
-		"prefix": "",
-		"relative": "tree_room/water.bin",
-		"src": ""
-	},
 	"INPUT_Config_6_TreeScene_renderOrder": 6,
 	"INPUT_Config_6_TreeScene_shader": "",
 	"INPUT_Config_6_TreeScene_sortIndex": 6,
@@ -1887,12 +1739,6 @@
 	"INPUT_Config_6_homeScene_shader": "ATPBR",
 	"INPUT_Config_6_work_page_renderOrder": 6,
 	"INPUT_Config_7_CleanRoom_name": "caustic_plane",
-	"INPUT_Config_7_CleanRoom_geometry": {
-		"filename": "",
-		"prefix": "",
-		"relative": "assets/geometry/room",
-		"src": ""
-	},
 	"INPUT_Config_7_CleanRoom_renderOrder": 6,
 	"INPUT_Config_7_CleanRoom_sortIndex": 6,
 	"INPUT_Config_7_ParticleTest_name": "bg",
@@ -1922,12 +1768,6 @@
 	"INPUT_Config_7_Work_side": "shader_double_side",
 	"INPUT_Config_7_Work_sortIndex": 4,
 	"INPUT_Config_7_TreeScene_name": "pillars",
-	"INPUT_Config_7_TreeScene_geometry": {
-		"filename": "",
-		"prefix": "",
-		"relative": "assets/geometry/tree_room/pillars.bin",
-		"src": ""
-	},
 	"INPUT_Config_7_TreeScene_parent": "sl_TreeScene_group_0",
 	"INPUT_Config_7_TreeScene_renderOrder": 1.2475,
 	"INPUT_Config_7_TreeScene_shader": "TreeFBR",
@@ -1940,12 +1780,6 @@
 	"INPUT_Config_7_homeScene_renderOrder": 4,
 	"INPUT_Config_7_homeScene_shader": "StageScreenShader",
 	"INPUT_Config_8_CleanRoom_name": "bush",
-	"INPUT_Config_8_CleanRoom_geometry": {
-		"filename": "bush.bin",
-		"prefix": "",
-		"relative": "assets/geometry/room",
-		"src": "assets/geometry/room/bush.bin"
-	},
 	"INPUT_Config_8_CleanRoom_parent": "sl_CleanRoom_group_0",
 	"INPUT_Config_8_CleanRoom_renderOrder": 1.8250000000000002,
 	"INPUT_Config_8_CleanRoom_script": "InstanceMesh",
@@ -2233,7 +2067,7 @@
 	"INPUT_P_Element_19_CleanRoom_config_depth": "[-20,20]",
 	"INPUT_P_Element_19_CleanRoom_config_height": "[-2,2]",
 	"INPUT_P_Element_19_CleanRoom_config_shader": "WaterParticles",
-	"INPUT_P_Element_19_CleanRoom_config_particleCount": "1000",
+	"INPUT_P_Element_19_CleanRoom_config_particleCount": "0",
 	"INPUT_P_Element_19_CleanRoom_config_width": "[-20,20]",
 	"INPUT_P_Element_19_home_scene_config_class": "HomeParticles",
 	"INPUT_P_Element_19_home_scene_config_depth": "[-0.3,0.3]",
@@ -2591,11 +2425,7 @@
 		0,
 		0
 	],
-	"MESH_Element_0_CleanRoomscale": [
-		1,
-		1,
-		1
-	],
+	"MESH_Element_0_CleanRoomscale": [0, 0, 0],
 	"MESH_Element_0_CleanRoomposition": [
 		0,
 		0,
@@ -2737,11 +2567,7 @@
 		0,
 		0
 	],
-	"MESH_Element_0_TreeScenescale": [
-		2.2,
-		2.2,
-		2.2
-	],
+	"MESH_Element_0_TreeScenescale": [0, 0, 0],
 	"MESH_Element_0_TreeSceneposition": [
 		0,
 		0,
@@ -2807,11 +2633,7 @@
 		0,
 		0
 	],
-	"MESH_Element_14_CleanRoomscale": [
-		0.7,
-		0.6,
-		0.8
-	],
+	"MESH_Element_14_CleanRoomscale": [0, 0, 0],
 	"MESH_Element_14_TreeSceneposition": [
 		0,
 		0,
@@ -2822,11 +2644,7 @@
 		0,
 		0
 	],
-	"MESH_Element_14_TreeScenescale": [
-		-1,
-		1,
-		-1
-	],
+	"MESH_Element_14_TreeScenescale": [0, 0, 0],
 	"MESH_Element_14_home_sceneposition": [
 		-0.8,
 		0.15,
@@ -2852,11 +2670,7 @@
 		0,
 		0
 	],
-	"MESH_Element_15_CleanRoomscale": [
-		2.55,
-		2.1,
-		2
-	],
+	"MESH_Element_15_CleanRoomscale": [0, 0, 0],
 	"MESH_Element_15_TreeSceneposition": [
 		0,
 		0,
@@ -2867,11 +2681,7 @@
 		0,
 		0
 	],
-	"MESH_Element_15_TreeScenescale": [
-		-1,
-		1,
-		-1
-	],
+	"MESH_Element_15_TreeScenescale": [0, 0, 0],
 	"MESH_Element_15_home_sceneposition": [
 		1.3,
 		0.15,
@@ -2897,11 +2707,7 @@
 		0,
 		10.59
 	],
-	"MESH_Element_16_CleanRoomscale": [
-		20,
-		20,
-		20
-	],
+	"MESH_Element_16_CleanRoomscale": [0, 0, 0],
 	"MESH_Element_17_CleanRoomposition": [
 		0,
 		2.5,
@@ -2912,11 +2718,7 @@
 		0,
 		0
 	],
-	"MESH_Element_17_CleanRoomscale": [
-		20,
-		20,
-		20
-	],
+	"MESH_Element_17_CleanRoomscale": [0, 0, 0],
 	"MESH_Element_17_home_sceneposition": [
 		0,
 		1.3699999999999999,
@@ -2942,11 +2744,7 @@
 		0,
 		0
 	],
-	"MESH_Element_18_CleanRoomscale": [
-		1,
-		1,
-		1
-	],
+	"MESH_Element_18_CleanRoomscale": [0, 0, 0],
 	"MESH_Element_18_TreeSceneposition": [
 		0,
 		0,
@@ -2983,11 +2781,7 @@
 		0,
 		0
 	],
-	"MESH_Element_19_CleanRoomscale": [
-		1,
-		1,
-		1
-	],
+	"MESH_Element_19_CleanRoomscale": [0, 0, 0],
 	"MESH_Element_19_home_sceneposition": [
 		-0.019419078756667485,
 		1.36,
@@ -3043,11 +2837,7 @@
 		0,
 		0
 	],
-	"MESH_Element_11_CleanRoomscale": [
-		1,
-		1,
-		1
-	],
+	"MESH_Element_11_CleanRoomscale": [0, 0, 0],
 	"MESH_Element_11_ParticleTestposition": [
 		0,
 		5,
@@ -3088,11 +2878,7 @@
 		0,
 		0
 	],
-	"MESH_Element_12_CleanRoomscale": [
-		1.2,
-		1.03,
-		1.32
-	],
+	"MESH_Element_12_CleanRoomscale": [0, 0, 0],
 	"MESH_Element_12_TreeSceneposition": [
 		0,
 		0,
@@ -3103,11 +2889,7 @@
 		0,
 		0
 	],
-	"MESH_Element_12_TreeScenescale": [
-		1,
-		1,
-		1
-	],
+	"MESH_Element_12_TreeScenescale": [0, 0, 0],
 	"MESH_Element_12_home_sceneposition": [
 		-4.42,
 		1.66,
@@ -3133,11 +2915,7 @@
 		0,
 		0
 	],
-	"MESH_Element_13_CleanRoomscale": [
-		1,
-		1,
-		1
-	],
+	"MESH_Element_13_CleanRoomscale": [0, 0, 0],
 	"MESH_Element_13_home_sceneposition": [
 		5.4,
 		2.5100000000000002,
@@ -3153,11 +2931,7 @@
 		0.53,
 		1
 	],
-	"MESH_Element_1_CleanRoomscale": [
-		1,
-		1,
-		1
-	],
+	"MESH_Element_1_CleanRoomscale": [0, 0, 0],
 	"MESH_Element_1_CleanRoomposition": [
 		0,
 		0,
@@ -3224,11 +2998,7 @@
 		180
 	],
 	"MESH_Element_1_Workscale": [0, 0, 0],
-	"MESH_Element_1_TreeScenescale": [
-		1,
-		1,
-		1
-	],
+	"MESH_Element_1_TreeScenescale": [0, 0, 0],
 	"MESH_Element_1_TreeSceneposition": [
 		0,
 		-0.036,
@@ -3309,11 +3079,7 @@
 		0,
 		0
 	],
-	"MESH_Element_20_CleanRoomscale": [
-		2,
-		1.71,
-		1
-	],
+	"MESH_Element_20_CleanRoomscale": [0, 0, 0],
 	"MESH_Element_20_TreeSceneposition": [
 		0,
 		3.83,
@@ -3324,11 +3090,7 @@
 		0,
 		0
 	],
-	"MESH_Element_20_TreeScenescale": [
-		1,
-		1,
-		1
-	],
+	"MESH_Element_20_TreeScenescale": [0, 0, 0],
 	"MESH_Element_20_home_sceneposition": [
 		0,
 		1.2170000000000003,
@@ -3354,11 +3116,7 @@
 		0,
 		0
 	],
-	"MESH_Element_21_CleanRoomscale": [
-		0.6,
-		0.6,
-		0.6
-	],
+	"MESH_Element_21_CleanRoomscale": [0, 0, 0],
 	"MESH_Element_21_TreeSceneposition": [
 		0,
 		3.96,
@@ -3369,11 +3127,7 @@
 		0,
 		0
 	],
-	"MESH_Element_21_TreeScenescale": [
-		1,
-		1,
-		1
-	],
+	"MESH_Element_21_TreeScenescale": [0, 0, 0],
 	"MESH_Element_22_CleanRoomposition": [
 		0,
 		0.46,
@@ -3395,11 +3149,7 @@
 		174.31,
 		0
 	],
-	"MESH_Element_22_TreeScenescale": [
-		2.2,
-		2.2,
-		2.2
-	],
+	"MESH_Element_22_TreeScenescale": [0, 0, 0],
 	"MESH_Element_22_home_sceneposition": [
 		0,
 		0,
@@ -3425,11 +3175,7 @@
 		0,
 		0
 	],
-	"MESH_Element_23_CleanRoomscale": [
-		2.07,
-		1,
-		1
-	],
+	"MESH_Element_23_CleanRoomscale": [0, 0, 0],
 	"MESH_Element_2_Contactposition": [
 		0,
 		0,
@@ -3501,11 +3247,7 @@
 		3.73,
 		3.73
 	],
-	"MESH_Element_2_TreeScenescale": [
-		1,
-		1,
-		1
-	],
+	"MESH_Element_2_TreeScenescale": [0, 0, 0],
 	"MESH_Element_2_TreeSceneposition": [
 		0,
 		0.105,
@@ -3546,11 +3288,7 @@
 		0.5900000000000001,
 		0.5900000000000001
 	],
-	"MESH_Element_3_CleanRoomscale": [
-		1,
-		0.69,
-		1
-	],
+	"MESH_Element_3_CleanRoomscale": [0, 0, 0],
 	"MESH_Element_3_CleanRoomposition": [
 		0,
 		0.023,
@@ -3602,11 +3340,7 @@
 		0
 	],
 	"MESH_Element_3_Workscale": [0, 0, 0],
-	"MESH_Element_3_TreeScenescale": [
-		1.7,
-		1.25,
-		1.7
-	],
+	"MESH_Element_3_TreeScenescale": [0, 0, 0],
 	"MESH_Element_3_TreeSceneposition": [
 		0,
 		-0.222,
@@ -3617,11 +3351,7 @@
 		0,
 		0
 	],
-	"MESH_Element_4_CleanRoomscale": [
-		0.8,
-		1.63,
-		0.8
-	],
+	"MESH_Element_4_CleanRoomscale": [0, 0, 0],
 	"MESH_Element_4_CleanRoomposition": [
 		0,
 		0.765,
@@ -3692,11 +3422,7 @@
 		2,
 		0.02
 	],
-	"MESH_Element_4_TreeScenescale": [
-		1,
-		1,
-		1
-	],
+	"MESH_Element_4_TreeScenescale": [0, 0, 0],
 	"MESH_Element_4_TreeSceneposition": [
 		0,
 		0,
@@ -3752,11 +3478,7 @@
 		0,
 		0
 	],
-	"MESH_Element_5_CleanRoomscale": [
-		1,
-		1,
-		1
-	],
+	"MESH_Element_5_CleanRoomscale": [0, 0, 0],
 	"MESH_Element_5_CleanRoomposition": [
 		0,
 		1,
@@ -3812,11 +3534,7 @@
 		0,
 		0
 	],
-	"MESH_Element_5_TreeScenescale": [
-		1,
-		1,
-		1
-	],
+	"MESH_Element_5_TreeScenescale": [0, 0, 0],
 	"MESH_Element_5_TreeSceneposition": [
 		0,
 		0.339,
@@ -3917,11 +3635,7 @@
 		0.38,
 		0.6
 	],
-	"MESH_Element_6_TreeScenescale": [
-		1,
-		1,
-		1
-	],
+	"MESH_Element_6_TreeScenescale": [0, 0, 0],
 	"MESH_Element_6_TreeSceneposition": [
 		0,
 		0.085,
@@ -3988,11 +3702,7 @@
 		0
 	],
 	"MESH_Element_7_Workscale": [0, 0, 0],
-	"MESH_Element_7_TreeScenescale": [
-		1,
-		1,
-		1
-	],
+	"MESH_Element_7_TreeScenescale": [0, 0, 0],
 	"MESH_Element_7_TreeSceneposition": [
 		0,
 		0,
@@ -4018,11 +3728,7 @@
 		0,
 		0
 	],
-	"MESH_Element_8_CleanRoomscale": [
-		1,
-		1,
-		1
-	],
+	"MESH_Element_8_CleanRoomscale": [0, 0, 0],
 	"MESH_Element_8_CleanRoomposition": [
 		0,
 		0,
@@ -4115,11 +3821,7 @@
 		0,
 		0
 	],
-	"MESH_Element_9_CleanRoomscale": [
-		1,
-		1,
-		1
-	],
+	"MESH_Element_9_CleanRoomscale": [0, 0, 0],
 	"MESH_Element_9_CleanRoomposition": [
 		0,
 		3.78,
@@ -4160,11 +3862,7 @@
 		0.5,
 		1
 	],
-	"MESH_Element_9_TreeScenescale": [
-		100,
-		100,
-		100
-	],
+	"MESH_Element_9_TreeScenescale": [0, 0, 0],
 	"MESH_Element_9_TreeSceneposition": [
 		0,
 		0.491,
@@ -4311,14 +4009,6 @@
 		"prefix": "assets/images",
 		"relative": "assets/images",
 		"src": "assets/images/pbr/alien_cracked_2_mro.png",
-		"useCompressed": false
-	},
-	"SceneLayout/SceneLayout/Element_6_TreeScene/_tx_tMatcap": {
-		"compressed": false,
-		"filename": "matcap_tree_room.png",
-		"prefix": "assets/images",
-		"relative": "assets/images",
-		"src": "assets/images/tree_room/matcap_tree_room.png",
 		"useCompressed": false
 	},
 	"SceneLayout/SceneLayout/Element_6_TreeScene/_tx_tNormal": {
@@ -4504,22 +4194,6 @@
 		"prefix": "assets/images",
 		"relative": "assets/images",
 		"src": "assets/images/_scenelayout/mask.jpg",
-		"useCompressed": false
-	},
-	"SceneLayout/SceneLayout/Element_17_TreeScene/_tx_tMap": {
-		"compressed": false,
-		"filename": "blck.jpg",
-		"prefix": "assets/images",
-		"relative": "assets/images",
-		"src": "assets/images/tree_room/blck.jpg",
-		"useCompressed": false
-	},
-	"SceneLayout/SceneLayout/Element_17_TreeScene/_txtMap": {
-		"compressed": false,
-		"filename": "blck.jpg",
-		"prefix": "assets/images",
-		"relative": "assets/images",
-		"src": "assets/images/tree_room/blck.jpg",
 		"useCompressed": false
 	},
 	"SceneLayout/SceneLayout/Element_15_home_scene/_tx_tMap": "{\"src\":\"\",\"relative\":\"\",\"prefix\":\"assets/images\",\"filename\":\"\"}",
@@ -5754,28 +5428,12 @@
 		"src": "assets/images/_scenelayout/black.jpg",
 		"useCompressed": false
 	},
-	"WorkItemShader/WorkItemShader/Element_1_Work/_tx_tNormal": {
-		"compressed": false,
-		"filename": "waternormals.jpg",
-		"prefix": "assets/images",
-		"relative": "assets/images",
-		"src": "assets/images/tree_room/waternormals.jpg",
-		"useCompressed": false
-	},
 	"WorkItemShader/WorkItemShader/Element_1_Work/_txtMap": {
 		"compressed": false,
 		"filename": "black.jpg",
 		"prefix": "assets/images",
 		"relative": "assets/images",
 		"src": "assets/images/_scenelayout/black.jpg",
-		"useCompressed": false
-	},
-	"WorkItemShader/WorkItemShader/Element_1_Work/_txtNormal": {
-		"compressed": false,
-		"filename": "waternormals.jpg",
-		"prefix": "assets/images",
-		"relative": "assets/images",
-		"src": "assets/images/tree_room/waternormals.jpg",
 		"useCompressed": false
 	},
 	"WorkItemShader/WorkItemShader/Element_1_Work/_txtEnv": {
@@ -5989,22 +5647,6 @@
 	},
 	"TentacleShader/TentacleShader/uRadius": 0.025,
 	"TentacleShader/TentacleShader/uTint": "#72b2d5",
-	"TreeFBR/TreeFBR/Element_3_TreeScene/_tx_tBaseColor": {
-		"compressed": "ktx2",
-		"filename": "STRUCTURE___CyclesBake_COMBINED.jpg",
-		"prefix": "assets/images",
-		"relative": "assets/images",
-		"src": "assets/images/tree_room/STRUCTURE___CyclesBake_COMBINED.jpg",
-		"useCompressed": true
-	},
-	"TreeFBR/TreeFBR/Element_3_TreeScene/_tx_tMRO": {
-		"compressed": "ktx2",
-		"filename": "STRUCTURE___PBR_AT_MRO.jpg",
-		"prefix": "assets/images",
-		"relative": "assets/images",
-		"src": "assets/images/tree_room/STRUCTURE___PBR_AT_MRO.jpg",
-		"useCompressed": true
-	},
 	"TreeFBR/TreeFBR/Element_3_TreeScene/_tx_tMatcap": {
 		"compressed": "ktx2",
 		"filename": "matcap-test.jpg",
@@ -6013,44 +5655,12 @@
 		"src": "assets/images/room/matcap-test.jpg",
 		"useCompressed": true
 	},
-	"TreeFBR/TreeFBR/Element_3_TreeScene/_tx_tNormal": {
-		"compressed": "ktx2",
-		"filename": "STRUCTURE___PBR_Normal.jpg",
-		"prefix": "assets/images",
-		"relative": "assets/images",
-		"src": "assets/images/tree_room/STRUCTURE___PBR_Normal.jpg",
-		"useCompressed": true
-	},
-	"TreeFBR/TreeFBR/Element_3_TreeScene/_txtMRO": {
-		"compressed": "ktx2",
-		"filename": "STRUCTURE___PBR_AT_MRO.jpg",
-		"prefix": "assets/images",
-		"relative": "assets/images",
-		"src": "assets/images/tree_room/STRUCTURE___PBR_AT_MRO.jpg",
-		"useCompressed": true
-	},
 	"TreeFBR/TreeFBR/Element_3_TreeScene/_txtMatcap": {
 		"compressed": "ktx2",
 		"filename": "matcap-test.jpg",
 		"prefix": "assets/images",
 		"relative": "assets/images",
 		"src": "assets/images/room/matcap-test.jpg",
-		"useCompressed": true
-	},
-	"TreeFBR/TreeFBR/Element_3_TreeScene/_txtNormal": {
-		"compressed": "ktx2",
-		"filename": "STRUCTURE___PBR_Normal.jpg",
-		"prefix": "assets/images",
-		"relative": "assets/images",
-		"src": "assets/images/tree_room/STRUCTURE___PBR_Normal.jpg",
-		"useCompressed": true
-	},
-	"TreeFBR/TreeFBR/Element_3_TreeScene/_txtBaseColor": {
-		"compressed": "ktx2",
-		"filename": "STRUCTURE___CyclesBake_COMBINED.jpg",
-		"prefix": "assets/images",
-		"relative": "assets/images",
-		"src": "assets/images/tree_room/STRUCTURE___CyclesBake_COMBINED.jpg",
 		"useCompressed": true
 	},
 	"TreeFBR/TreeFBR/Element_3_TreeScene/uLight": [
@@ -6130,52 +5740,12 @@
 		1,
 		1
 	],
-	"TreeFBR/TreeFBR/Element_14_TreeScene/_tx_tBaseColor": {
-		"compressed": "ktx2",
-		"filename": "ROCK_L___CyclesBake_COMBINED.jpg",
-		"prefix": "assets/images",
-		"relative": "assets/images",
-		"src": "assets/images/tree_room/ROCK_L___CyclesBake_COMBINED.jpg",
-		"useCompressed": true
-	},
-	"TreeFBR/TreeFBR/Element_14_TreeScene/_tx_tMRO": {
-		"compressed": "ktx2",
-		"filename": "ROCK_L___PBR_AT_MRO.jpg",
-		"prefix": "assets/images",
-		"relative": "assets/images",
-		"src": "assets/images/tree_room/ROCK_L___PBR_AT_MRO.jpg",
-		"useCompressed": true
-	},
 	"TreeFBR/TreeFBR/Element_14_TreeScene/_tx_tMatcap": {
 		"compressed": "ktx2",
 		"filename": "matcap-test.jpg",
 		"prefix": "assets/images",
 		"relative": "assets/images",
 		"src": "assets/images/room/matcap-test.jpg",
-		"useCompressed": true
-	},
-	"TreeFBR/TreeFBR/Element_14_TreeScene/_tx_tNormal": {
-		"compressed": "ktx2",
-		"filename": "ROCK_L___PBR_Normal.jpg",
-		"prefix": "assets/images",
-		"relative": "assets/images",
-		"src": "assets/images/tree_room/ROCK_L___PBR_Normal.jpg",
-		"useCompressed": true
-	},
-	"TreeFBR/TreeFBR/Element_14_TreeScene/_txtBaseColor": {
-		"compressed": "ktx2",
-		"filename": "ROCK_L___CyclesBake_COMBINED.jpg",
-		"prefix": "assets/images",
-		"relative": "assets/images",
-		"src": "assets/images/tree_room/ROCK_L___CyclesBake_COMBINED.jpg",
-		"useCompressed": true
-	},
-	"TreeFBR/TreeFBR/Element_14_TreeScene/_txtMRO": {
-		"compressed": "ktx2",
-		"filename": "ROCK_L___PBR_AT_MRO.jpg",
-		"prefix": "assets/images",
-		"relative": "assets/images",
-		"src": "assets/images/tree_room/ROCK_L___PBR_AT_MRO.jpg",
 		"useCompressed": true
 	},
 	"TreeFBR/TreeFBR/Element_14_TreeScene/_txtMatcap": {
@@ -6186,66 +5756,18 @@
 		"src": "assets/images/room/matcap-test.jpg",
 		"useCompressed": true
 	},
-	"TreeFBR/TreeFBR/Element_14_TreeScene/_txtNormal": {
-		"compressed": "ktx2",
-		"filename": "ROCK_L___PBR_Normal.jpg",
-		"prefix": "assets/images",
-		"relative": "assets/images",
-		"src": "assets/images/tree_room/ROCK_L___PBR_Normal.jpg",
-		"useCompressed": true
-	},
 	"TreeFBR/TreeFBR/Element_14_TreeScene/uLight": [
 		2.91,
 		1,
 		1,
 		1
 	],
-	"TreeFBR/TreeFBR/Element_15_TreeScene/_tx_tBaseColor": {
-		"compressed": "ktx2",
-		"filename": "ROCK_R___CyclesBake_COMBINED.jpg",
-		"prefix": "assets/images",
-		"relative": "assets/images",
-		"src": "assets/images/tree_room/ROCK_R___CyclesBake_COMBINED.jpg",
-		"useCompressed": true
-	},
-	"TreeFBR/TreeFBR/Element_15_TreeScene/_tx_tMRO": {
-		"compressed": "ktx2",
-		"filename": "ROCK_R___PBR_AT_MRO.jpg",
-		"prefix": "assets/images",
-		"relative": "assets/images",
-		"src": "assets/images/tree_room/ROCK_R___PBR_AT_MRO.jpg",
-		"useCompressed": true
-	},
 	"TreeFBR/TreeFBR/Element_15_TreeScene/_tx_tMatcap": {
 		"compressed": "ktx2",
 		"filename": "matcap-test.jpg",
 		"prefix": "assets/images",
 		"relative": "assets/images",
 		"src": "assets/images/room/matcap-test.jpg",
-		"useCompressed": true
-	},
-	"TreeFBR/TreeFBR/Element_15_TreeScene/_tx_tNormal": {
-		"compressed": "ktx2",
-		"filename": "ROCK_R___PBR_Normal.jpg",
-		"prefix": "assets/images",
-		"relative": "assets/images",
-		"src": "assets/images/tree_room/ROCK_R___PBR_Normal.jpg",
-		"useCompressed": true
-	},
-	"TreeFBR/TreeFBR/Element_15_TreeScene/_txtBaseColor": {
-		"compressed": "ktx2",
-		"filename": "ROCK_R___CyclesBake_COMBINED.jpg",
-		"prefix": "assets/images",
-		"relative": "assets/images",
-		"src": "assets/images/tree_room/ROCK_R___CyclesBake_COMBINED.jpg",
-		"useCompressed": true
-	},
-	"TreeFBR/TreeFBR/Element_15_TreeScene/_txtMRO": {
-		"compressed": "ktx2",
-		"filename": "ROCK_R___PBR_AT_MRO.jpg",
-		"prefix": "assets/images",
-		"relative": "assets/images",
-		"src": "assets/images/tree_room/ROCK_R___PBR_AT_MRO.jpg",
 		"useCompressed": true
 	},
 	"TreeFBR/TreeFBR/Element_15_TreeScene/_txtMatcap": {
@@ -6256,36 +5778,12 @@
 		"src": "assets/images/room/matcap-test.jpg",
 		"useCompressed": true
 	},
-	"TreeFBR/TreeFBR/Element_15_TreeScene/_txtNormal": {
-		"compressed": "ktx2",
-		"filename": "ROCK_R___PBR_Normal.jpg",
-		"prefix": "assets/images",
-		"relative": "assets/images",
-		"src": "assets/images/tree_room/ROCK_R___PBR_Normal.jpg",
-		"useCompressed": true
-	},
 	"TreeFBR/TreeFBR/Element_15_TreeScene/uLight": [
 		4.9,
 		-2.62,
 		-0.71,
 		0.92
 	],
-	"TreeFBR/TreeFBR/Element_16_TreeScene/_tx_tBaseColor": {
-		"compressed": false,
-		"filename": "TREE_leaves___CyclesBake_COMBINED.jpg",
-		"prefix": "assets/images",
-		"relative": "assets/images",
-		"src": "assets/images/tree_room/TREE_leaves___CyclesBake_COMBINED.jpg",
-		"useCompressed": false
-	},
-	"TreeFBR/TreeFBR/Element_16_TreeScene/_tx_tMRO": {
-		"compressed": false,
-		"filename": "TREE_leaves___PBR_AT_MRO.jpg",
-		"prefix": "assets/images",
-		"relative": "assets/images",
-		"src": "assets/images/tree_room/TREE_leaves___PBR_AT_MRO.jpg",
-		"useCompressed": false
-	},
 	"TreeFBR/TreeFBR/Element_16_TreeScene/_tx_tMatcap": {
 		"compressed": false,
 		"filename": "matcap3.png",
@@ -6300,22 +5798,6 @@
 		"prefix": "assets/images",
 		"relative": "assets/images",
 		"src": "assets/images/_scenelayout/empty_normal.png",
-		"useCompressed": false
-	},
-	"TreeFBR/TreeFBR/Element_16_TreeScene/_txtBaseColor": {
-		"compressed": false,
-		"filename": "TREE_leaves___CyclesBake_COMBINED.jpg",
-		"prefix": "assets/images",
-		"relative": "assets/images",
-		"src": "assets/images/tree_room/TREE_leaves___CyclesBake_COMBINED.jpg",
-		"useCompressed": false
-	},
-	"TreeFBR/TreeFBR/Element_16_TreeScene/_txtMRO": {
-		"compressed": false,
-		"filename": "TREE_leaves___PBR_AT_MRO.jpg",
-		"prefix": "assets/images",
-		"relative": "assets/images",
-		"src": "assets/images/tree_room/TREE_leaves___PBR_AT_MRO.jpg",
 		"useCompressed": false
 	},
 	"TreeFBR/TreeFBR/Element_16_TreeScene/_txtMatcap": {
@@ -6387,41 +5869,9 @@
 		0,
 		0
 	],
-	"TreeFBR/TreeFBR/Element_1_TreeScene/_tx_tBaseColor": {
-		"compressed": "ktx2",
-		"filename": "SAND___CyclesBake_COMBINED.jpg",
-		"prefix": "assets/images",
-		"relative": "assets/images",
-		"src": "assets/images/tree_room/SAND___CyclesBake_COMBINED.jpg",
-		"useCompressed": true
-	},
-	"TreeFBR/TreeFBR/Element_1_TreeScene/_tx_tMRO": {
-		"compressed": "ktx2",
-		"filename": "SAND___PBR_AT_MRO.jpg",
-		"prefix": "assets/images",
-		"relative": "assets/images",
-		"src": "assets/images/tree_room/SAND___PBR_AT_MRO.jpg",
-		"useCompressed": true
-	},
 	"TreeFBR/TreeFBR/Element_1_TreeScene/_tx_tMatcap": {
 		"hotreload": true,
 		"src": "assets/images/room/matcap-test.jpg?1704406116063-compressedKtx2"
-	},
-	"TreeFBR/TreeFBR/Element_1_TreeScene/_tx_tNormal": {
-		"compressed": "ktx2",
-		"filename": "SAND___PBR_Normal.jpg",
-		"prefix": "assets/images",
-		"relative": "assets/images",
-		"src": "assets/images/tree_room/SAND___PBR_Normal.jpg",
-		"useCompressed": true
-	},
-	"TreeFBR/TreeFBR/Element_1_TreeScene/_txtMRO": {
-		"compressed": "ktx2",
-		"filename": "SAND___PBR_AT_MRO.jpg",
-		"prefix": "assets/images",
-		"relative": "assets/images",
-		"src": "assets/images/tree_room/SAND___PBR_AT_MRO.jpg",
-		"useCompressed": true
 	},
 	"TreeFBR/TreeFBR/Element_1_TreeScene/_txtMatcap": {
 		"compressed": "ktx2",
@@ -6429,22 +5879,6 @@
 		"prefix": "assets/images",
 		"relative": "assets/images",
 		"src": "assets/images/room/matcap-test.jpg",
-		"useCompressed": true
-	},
-	"TreeFBR/TreeFBR/Element_1_TreeScene/_txtNormal": {
-		"compressed": "ktx2",
-		"filename": "SAND___PBR_Normal.jpg",
-		"prefix": "assets/images",
-		"relative": "assets/images",
-		"src": "assets/images/tree_room/SAND___PBR_Normal.jpg",
-		"useCompressed": true
-	},
-	"TreeFBR/TreeFBR/Element_1_TreeScene/_txtBaseColor": {
-		"compressed": "ktx2",
-		"filename": "SAND___CyclesBake_COMBINED.jpg",
-		"prefix": "assets/images",
-		"relative": "assets/images",
-		"src": "assets/images/tree_room/SAND___CyclesBake_COMBINED.jpg",
 		"useCompressed": true
 	},
 	"TreeFBR/TreeFBR/Element_1_TreeScene/uNormalStrength": 1,
@@ -6455,44 +5889,12 @@
 		2.14,
 		2
 	],
-	"TreeFBR/TreeFBR/Element_2_TreeScene/_tx_tBaseColor": {
-		"compressed": "ktx2",
-		"filename": "WALLS_CEILING___CyclesBake_COMBINED.jpg",
-		"prefix": "assets/images",
-		"relative": "assets/images",
-		"src": "assets/images/tree_room/WALLS_CEILING___CyclesBake_COMBINED.jpg",
-		"useCompressed": true
-	},
-	"TreeFBR/TreeFBR/Element_2_TreeScene/_tx_tMRO": {
-		"compressed": "ktx2",
-		"filename": "WALLS_CEILING___PBR_AT_MRO.jpg",
-		"prefix": "assets/images",
-		"relative": "assets/images",
-		"src": "assets/images/tree_room/WALLS_CEILING___PBR_AT_MRO.jpg",
-		"useCompressed": true
-	},
 	"TreeFBR/TreeFBR/Element_2_TreeScene/_tx_tMatcap": {
 		"compressed": "ktx2",
 		"filename": "matcap3.png",
 		"prefix": "assets/images",
 		"relative": "assets/images",
 		"src": "assets/images/particle/matcap3.png",
-		"useCompressed": true
-	},
-	"TreeFBR/TreeFBR/Element_2_TreeScene/_tx_tNormal": {
-		"compressed": "ktx2",
-		"filename": "WALLS_CEILING___PBR_Normal.jpg",
-		"prefix": "assets/images",
-		"relative": "assets/images",
-		"src": "assets/images/tree_room/WALLS_CEILING___PBR_Normal.jpg",
-		"useCompressed": true
-	},
-	"TreeFBR/TreeFBR/Element_2_TreeScene/_txtMRO": {
-		"compressed": "ktx2",
-		"filename": "WALLS_CEILING___PBR_AT_MRO.jpg",
-		"prefix": "assets/images",
-		"relative": "assets/images",
-		"src": "assets/images/tree_room/WALLS_CEILING___PBR_AT_MRO.jpg",
 		"useCompressed": true
 	},
 	"TreeFBR/TreeFBR/Element_2_TreeScene/_txtMatcap": {
@@ -6503,63 +5905,15 @@
 		"src": "assets/images/particle/matcap3.png",
 		"useCompressed": true
 	},
-	"TreeFBR/TreeFBR/Element_2_TreeScene/_txtNormal": {
-		"compressed": "ktx2",
-		"filename": "WALLS_CEILING___PBR_Normal.jpg",
-		"prefix": "assets/images",
-		"relative": "assets/images",
-		"src": "assets/images/tree_room/WALLS_CEILING___PBR_Normal.jpg",
-		"useCompressed": true
-	},
-	"TreeFBR/TreeFBR/Element_2_TreeScene/_txtBaseColor": {
-		"compressed": "ktx2",
-		"filename": "WALLS_CEILING___CyclesBake_COMBINED.jpg",
-		"prefix": "assets/images",
-		"relative": "assets/images",
-		"src": "assets/images/tree_room/WALLS_CEILING___CyclesBake_COMBINED.jpg",
-		"useCompressed": true
-	},
 	"TreeFBR/TreeFBR/Element_2_TreeScene/uLight": [
 		1.5,
 		0.92,
 		1,
 		1
 	],
-	"TreeFBR/TreeFBR/Element_7_TreeScene/_tx_tBaseColor": {
-		"compressed": "ktx2",
-		"filename": "PILLARS___CyclesBake_COMBINED.jpg",
-		"prefix": "assets/images",
-		"relative": "assets/images",
-		"src": "assets/images/tree_room/PILLARS___CyclesBake_COMBINED.jpg",
-		"useCompressed": true
-	},
-	"TreeFBR/TreeFBR/Element_7_TreeScene/_tx_tMRO": {
-		"compressed": "ktx2",
-		"filename": "PILLARS___PBR_AT_MRO.jpg",
-		"prefix": "assets/images",
-		"relative": "assets/images",
-		"src": "assets/images/tree_room/PILLARS___PBR_AT_MRO.jpg",
-		"useCompressed": true
-	},
 	"TreeFBR/TreeFBR/Element_7_TreeScene/_tx_tMatcap": {
 		"hotreload": true,
 		"src": "assets/images/particle/matcap3.png?1704406093391-compressedKtx2"
-	},
-	"TreeFBR/TreeFBR/Element_7_TreeScene/_tx_tNormal": {
-		"compressed": "ktx2",
-		"filename": "PILLARS___PBR_Normal.jpg",
-		"prefix": "assets/images",
-		"relative": "assets/images",
-		"src": "assets/images/tree_room/PILLARS___PBR_Normal.jpg",
-		"useCompressed": true
-	},
-	"TreeFBR/TreeFBR/Element_7_TreeScene/_txtMRO": {
-		"compressed": "ktx2",
-		"filename": "PILLARS___PBR_AT_MRO.jpg",
-		"prefix": "assets/images",
-		"relative": "assets/images",
-		"src": "assets/images/tree_room/PILLARS___PBR_AT_MRO.jpg",
-		"useCompressed": true
 	},
 	"TreeFBR/TreeFBR/Element_7_TreeScene/_txtMatcap": {
 		"compressed": "ktx2",
@@ -6567,22 +5921,6 @@
 		"prefix": "assets/images",
 		"relative": "assets/images",
 		"src": "assets/images/particle/matcap3.png",
-		"useCompressed": true
-	},
-	"TreeFBR/TreeFBR/Element_7_TreeScene/_txtNormal": {
-		"compressed": "ktx2",
-		"filename": "PILLARS___PBR_Normal.jpg",
-		"prefix": "assets/images",
-		"relative": "assets/images",
-		"src": "assets/images/tree_room/PILLARS___PBR_Normal.jpg",
-		"useCompressed": true
-	},
-	"TreeFBR/TreeFBR/Element_7_TreeScene/_txtBaseColor": {
-		"compressed": "ktx2",
-		"filename": "PILLARS___CyclesBake_COMBINED.jpg",
-		"prefix": "assets/images",
-		"relative": "assets/images",
-		"src": "assets/images/tree_room/PILLARS___CyclesBake_COMBINED.jpg",
 		"useCompressed": true
 	},
 	"TreeFBR/TreeFBR/Element_7_TreeScene/uNormalStrength": 1,
@@ -6593,22 +5931,6 @@
 		0.97,
 		0.94
 	],
-	"TreeFBR/TreeFBR/Element_4_TreeScene/_tx_tBaseColor": {
-		"compressed": false,
-		"filename": "TREE_trunk_branches___CyclesBake_COMBINED.jpg",
-		"prefix": "assets/images",
-		"relative": "assets/images",
-		"src": "assets/images/tree_room/TREE_trunk_branches___CyclesBake_COMBINED.jpg",
-		"useCompressed": false
-	},
-	"TreeFBR/TreeFBR/Element_4_TreeScene/_tx_tMRO": {
-		"compressed": false,
-		"filename": "TREE_trunk_branches___PBR_AT_MRO.jpg",
-		"prefix": "assets/images",
-		"relative": "assets/images",
-		"src": "assets/images/tree_room/TREE_trunk_branches___PBR_AT_MRO.jpg",
-		"useCompressed": false
-	},
 	"TreeFBR/TreeFBR/Element_4_TreeScene/_tx_tMatcap": {
 		"compressed": false,
 		"filename": "matcap3.png",
@@ -6623,14 +5945,6 @@
 		"prefix": "assets/images",
 		"relative": "assets/images",
 		"src": "assets/images/_scenelayout/empty_normal.png",
-		"useCompressed": false
-	},
-	"TreeFBR/TreeFBR/Element_4_TreeScene/_txtMRO": {
-		"compressed": false,
-		"filename": "TREE_trunk_branches___PBR_AT_MRO.jpg",
-		"prefix": "assets/images",
-		"relative": "assets/images",
-		"src": "assets/images/tree_room/TREE_trunk_branches___PBR_AT_MRO.jpg",
 		"useCompressed": false
 	},
 	"TreeFBR/TreeFBR/Element_4_TreeScene/_txtMatcap": {
@@ -6649,36 +5963,12 @@
 		"src": "assets/images/_scenelayout/empty_normal.png",
 		"useCompressed": false
 	},
-	"TreeFBR/TreeFBR/Element_4_TreeScene/_txtBaseColor": {
-		"compressed": false,
-		"filename": "TREE_trunk_branches___CyclesBake_COMBINED.jpg",
-		"prefix": "assets/images",
-		"relative": "assets/images",
-		"src": "assets/images/tree_room/TREE_trunk_branches___CyclesBake_COMBINED.jpg",
-		"useCompressed": false
-	},
 	"TreeFBR/TreeFBR/Element_4_TreeScene/uLight": [
 		1.18,
 		3.09,
 		0.36,
 		2.48
 	],
-	"TreeFBR/TreeFBR/Element_5_TreeScene/_tx_tBaseColor": {
-		"compressed": "ktx2",
-		"filename": "ROCKY_SOIL___CyclesBake_COMBINED.jpg",
-		"prefix": "assets/images",
-		"relative": "assets/images",
-		"src": "assets/images/tree_room/ROCKY_SOIL___CyclesBake_COMBINED.jpg",
-		"useCompressed": true
-	},
-	"TreeFBR/TreeFBR/Element_5_TreeScene/_tx_tMRO": {
-		"compressed": "ktx2",
-		"filename": "ROCKY_SOIL___PBR_AT_MRO.jpg",
-		"prefix": "assets/images",
-		"relative": "assets/images",
-		"src": "assets/images/tree_room/ROCKY_SOIL___PBR_AT_MRO.jpg",
-		"useCompressed": true
-	},
 	"TreeFBR/TreeFBR/Element_5_TreeScene/_tx_tMatcap": {
 		"compressed": "ktx2",
 		"filename": "matcap-test.jpg",
@@ -6687,44 +5977,12 @@
 		"src": "assets/images/room/matcap-test.jpg",
 		"useCompressed": true
 	},
-	"TreeFBR/TreeFBR/Element_5_TreeScene/_tx_tNormal": {
-		"compressed": "ktx2",
-		"filename": "ROCKY_SOIL___PBR_Normal.jpg",
-		"prefix": "assets/images",
-		"relative": "assets/images",
-		"src": "assets/images/tree_room/ROCKY_SOIL___PBR_Normal.jpg",
-		"useCompressed": true
-	},
-	"TreeFBR/TreeFBR/Element_5_TreeScene/_txtMRO": {
-		"compressed": "ktx2",
-		"filename": "ROCKY_SOIL___PBR_AT_MRO.jpg",
-		"prefix": "assets/images",
-		"relative": "assets/images",
-		"src": "assets/images/tree_room/ROCKY_SOIL___PBR_AT_MRO.jpg",
-		"useCompressed": true
-	},
 	"TreeFBR/TreeFBR/Element_5_TreeScene/_txtMatcap": {
 		"compressed": "ktx2",
 		"filename": "matcap-test.jpg",
 		"prefix": "assets/images",
 		"relative": "assets/images",
 		"src": "assets/images/room/matcap-test.jpg",
-		"useCompressed": true
-	},
-	"TreeFBR/TreeFBR/Element_5_TreeScene/_txtNormal": {
-		"compressed": "ktx2",
-		"filename": "ROCKY_SOIL___PBR_Normal.jpg",
-		"prefix": "assets/images",
-		"relative": "assets/images",
-		"src": "assets/images/tree_room/ROCKY_SOIL___PBR_Normal.jpg",
-		"useCompressed": true
-	},
-	"TreeFBR/TreeFBR/Element_5_TreeScene/_txtBaseColor": {
-		"compressed": "ktx2",
-		"filename": "ROCKY_SOIL___CyclesBake_COMBINED.jpg",
-		"prefix": "assets/images",
-		"relative": "assets/images",
-		"src": "assets/images/tree_room/ROCKY_SOIL___CyclesBake_COMBINED.jpg",
 		"useCompressed": true
 	},
 	"TreeFBR/TreeFBR/Element_5_TreeScene/uNormalStrength": 0.4,
@@ -6751,14 +6009,6 @@
 		"src": "assets/images/pbr/alien_cracked_2_mro.png",
 		"useCompressed": false
 	},
-	"TreeFBR/TreeFBR/Element_6_TreeScene/_tx_tMatcap": {
-		"compressed": false,
-		"filename": "matcap_tree_room.png",
-		"prefix": "assets/images",
-		"relative": "assets/images",
-		"src": "assets/images/tree_room/matcap_tree_room.png",
-		"useCompressed": false
-	},
 	"TreeFBR/TreeFBR/Element_6_TreeScene/_tx_tNormal": {
 		"compressed": false,
 		"filename": "alien_cracked_2_normal.png",
@@ -6773,14 +6023,6 @@
 		"prefix": "assets/images",
 		"relative": "assets/images",
 		"src": "assets/images/pbr/alien_cracked_2_mro.png",
-		"useCompressed": false
-	},
-	"TreeFBR/TreeFBR/Element_6_TreeScene/_txtMatcap": {
-		"compressed": false,
-		"filename": "matcap_tree_room.png",
-		"prefix": "assets/images",
-		"relative": "assets/images",
-		"src": "assets/images/tree_room/matcap_tree_room.png",
 		"useCompressed": false
 	},
 	"TreeFBR/TreeFBR/Element_6_TreeScene/_txtNormal": {
@@ -6807,22 +6049,6 @@
 		2.471,
 		0
 	],
-	"TreeFBR/TreeFBR/Element_8_TreeScene/_tx_tBaseColor": {
-		"compressed": "ktx2",
-		"filename": "CABLES___CyclesBake_COMBINED.jpg",
-		"prefix": "assets/images",
-		"relative": "assets/images",
-		"src": "assets/images/tree_room/CABLES___CyclesBake_COMBINED.jpg",
-		"useCompressed": true
-	},
-	"TreeFBR/TreeFBR/Element_8_TreeScene/_tx_tMRO": {
-		"compressed": "ktx2",
-		"filename": "CABLES___PBR_AT_MRO.jpg",
-		"prefix": "assets/images",
-		"relative": "assets/images",
-		"src": "assets/images/tree_room/CABLES___PBR_AT_MRO.jpg",
-		"useCompressed": true
-	},
 	"TreeFBR/TreeFBR/Element_8_TreeScene/_tx_tMatcap": {
 		"compressed": "ktx2",
 		"filename": "matcap-test.jpg",
@@ -6831,44 +6057,12 @@
 		"src": "assets/images/room/matcap-test.jpg",
 		"useCompressed": true
 	},
-	"TreeFBR/TreeFBR/Element_8_TreeScene/_tx_tNormal": {
-		"compressed": "ktx2",
-		"filename": "CABLES___PBR_Normal.jpg",
-		"prefix": "assets/images",
-		"relative": "assets/images",
-		"src": "assets/images/tree_room/CABLES___PBR_Normal.jpg",
-		"useCompressed": true
-	},
-	"TreeFBR/TreeFBR/Element_8_TreeScene/_txtMRO": {
-		"compressed": "ktx2",
-		"filename": "CABLES___PBR_AT_MRO.jpg",
-		"prefix": "assets/images",
-		"relative": "assets/images",
-		"src": "assets/images/tree_room/CABLES___PBR_AT_MRO.jpg",
-		"useCompressed": true
-	},
 	"TreeFBR/TreeFBR/Element_8_TreeScene/_txtMatcap": {
 		"compressed": "ktx2",
 		"filename": "matcap-test.jpg",
 		"prefix": "assets/images",
 		"relative": "assets/images",
 		"src": "assets/images/room/matcap-test.jpg",
-		"useCompressed": true
-	},
-	"TreeFBR/TreeFBR/Element_8_TreeScene/_txtNormal": {
-		"compressed": "ktx2",
-		"filename": "CABLES___PBR_Normal.jpg",
-		"prefix": "assets/images",
-		"relative": "assets/images",
-		"src": "assets/images/tree_room/CABLES___PBR_Normal.jpg",
-		"useCompressed": true
-	},
-	"TreeFBR/TreeFBR/Element_8_TreeScene/_txtBaseColor": {
-		"compressed": "ktx2",
-		"filename": "CABLES___CyclesBake_COMBINED.jpg",
-		"prefix": "assets/images",
-		"relative": "assets/images",
-		"src": "assets/images/tree_room/CABLES___CyclesBake_COMBINED.jpg",
 		"useCompressed": true
 	},
 	"TreeFBR/TreeFBR/Element_8_TreeScene/uColor": "#bfe6f7",
@@ -6983,14 +6177,6 @@
 		"src": "assets/images/_scenelayout/mask.jpg",
 		"useCompressed": false
 	},
-	"TreeWaterShader/TreeWaterShader/_txtWaterNormal": {
-		"compressed": false,
-		"filename": "4141-normal.jpg",
-		"prefix": "assets/images",
-		"relative": "assets/images",
-		"src": "assets/images/tree_room/4141-normal.jpg",
-		"useCompressed": false
-	},
 	"TreeWaterShader/TreeWaterShader/_tx_tMRO": {
 		"compressed": false,
 		"filename": "empty_mro.jpg",
@@ -7005,14 +6191,6 @@
 		"prefix": "assets/images",
 		"relative": "assets/images",
 		"src": "assets/images/_scenelayout/mask.jpg",
-		"useCompressed": false
-	},
-	"TreeWaterShader/TreeWaterShader/_tx_tWaterNormal": {
-		"compressed": false,
-		"filename": "4141-normal.jpg",
-		"prefix": "assets/images",
-		"relative": "assets/images",
-		"src": "assets/images/tree_room/4141-normal.jpg",
 		"useCompressed": false
 	},
 	"UIL_P_Element_4_work_page_code_P_Element_4_work_page_code_list_order": "[\"P_Element_4_work_page_code_162450264419225-420-8d6-3f9_folder\",\"P_Element_4_work_page_code_162450341791664-492-a38-659_folder\",\"P_Element_4_work_page_code_162450260018873-4ce-aee-894_folder\"]",
