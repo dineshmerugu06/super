@@ -44,7 +44,7 @@
 /* Work project screens: flowing project cards shown only on the Work route. */
 /* Portfolio content layer: MERUGU hero on Home, Interests+Skillset panel on About, OPEN THE DOOR on Contact. */
 (function(){
-  var flowFrame = null, heroEl = null, aboutEl = null, doorEl = null;
+  var flowFrame = null, heroEl = null, aboutEl = null, doorEl = null, journeyStarted = false;
   var fonts = document.createElement('link');
   fonts.rel = 'stylesheet';
   fonts.href = 'https://fonts.googleapis.com/css2?family=Archivo:wght@700;800;900&family=Inter:wght@400;500;600&display=swap';
@@ -151,12 +151,16 @@
     }
     if (flowFrame) flowFrame.style.display = on ? 'block' : 'none';
     if (isHome() && !heroEl) heroEl = buildHero();
-    if (heroEl) heroEl.style.display = isHome() ? 'block' : 'none';
+    if (heroEl) heroEl.style.display = (isHome() && !journeyStarted) ? 'block' : 'none';
     if (isAbout() && !aboutEl) aboutEl = buildAbout();
     if (aboutEl) aboutEl.style.display = isAbout() ? 'block' : 'none';
     if (isContact() && !doorEl) doorEl = buildDoor();
     if (doorEl) doorEl.style.display = isContact() ? 'block' : 'none';
   }
+  addEventListener('wheel', function(){ journeyStarted = true; sync(); }, {passive: true});
+  addEventListener('touchmove', function(){ journeyStarted = true; sync(); }, {passive: true});
+  addEventListener('keydown', function(e){ if ([' ','ArrowDown','ArrowUp','PageDown','PageUp'].indexOf(e.key) >= 0) { journeyStarted = true; sync(); } });
+  setInterval(function(){ if (!isHome()) journeyStarted = false; }, 400);
   setInterval(sync, 400);
   addEventListener('popstate', sync);
   function feed(delta){
