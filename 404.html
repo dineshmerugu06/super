@@ -42,14 +42,104 @@
     <noscript><p style="background: black; color: white; font-size: 20px; display: inline; font-family: Helvetica, Arial, sans-serif; padding: 10px;">Please enable javascript</p></noscript>
 <script>
 /* Work project screens: flowing project cards shown only on the Work route. */
+/* Portfolio content layer: MERUGU hero on Home, Interests+Skillset panel on About, OPEN THE DOOR on Contact. */
 (function(){
-  var flowFrame = null;
+  var flowFrame = null, heroEl = null, aboutEl = null, doorEl = null;
+  var fonts = document.createElement('link');
+  fonts.rel = 'stylesheet';
+  fonts.href = 'https://fonts.googleapis.com/css2?family=Archivo:wght@700;800;900&family=Inter:wght@400;500;600&display=swap';
+  document.head.appendChild(fonts);
   var css = document.createElement('style');
   css.textContent =
     '.work-flow{position:fixed;inset:0;width:100vw;height:100vh;border:0;z-index:1;pointer-events:none;background:transparent;animation:workFlowFade 1.15s ease both;}' +
-    '@keyframes workFlowFade{from{opacity:0;}to{opacity:1;}}' + '[class*="ChatDOM"],[class*="MusicPlayerDOM"]{display:none!important;visibility:hidden!important;pointer-events:none!important;}';
+    '@keyframes workFlowFade{from{opacity:0;}to{opacity:1;}}' + '[class*="ChatDOM"],[class*="MusicPlayerDOM"]{display:none!important;visibility:hidden!important;pointer-events:none!important;}' +
+    '.pf-layer{position:fixed;z-index:2;pointer-events:none;font-family:Inter,Helvetica,Arial,sans-serif;color:#F4FAFD;animation:workFlowFade 1.15s ease both;}' +
+    '.pf-hero{left:5vw;bottom:11vh;max-width:min(600px,88vw);}' +
+    '.pf-label{font-family:Archivo,sans-serif;font-size:11px;font-weight:700;letter-spacing:.35em;text-transform:uppercase;color:#4AABCC;}' +
+    '.pf-name{font-family:Archivo,sans-serif;font-weight:900;font-size:clamp(52px,8.5vw,118px);line-height:.9;letter-spacing:-.01em;text-transform:uppercase;margin-top:12px;}' +
+    '.pf-name span{display:block;color:transparent;-webkit-text-stroke:1.5px #72B2D5;}' +
+    '.pf-role{font-family:Archivo,sans-serif;font-weight:800;font-size:clamp(14px,1.8vw,21px);letter-spacing:.16em;text-transform:uppercase;margin-top:16px;}' +
+    '.pf-role em{font-style:normal;color:#4AABCC;}' +
+    '.pf-intro{margin-top:12px;font-size:14.5px;line-height:1.6;color:#B3D3E0;max-width:480px;}' +
+    '.pf-strip{left:0;right:0;bottom:0;border-top:1px solid rgba(179,211,224,.22);background:rgba(13,48,80,.45);backdrop-filter:blur(3px);overflow:hidden;white-space:nowrap;padding:11px 0;}' +
+    '.pf-strip .tk{display:inline-block;animation:pfScroll 28s linear infinite;font-family:Archivo,sans-serif;font-weight:800;font-size:12px;letter-spacing:.3em;text-transform:uppercase;color:#B3D3E0;}' +
+    '.pf-strip b{color:#4AABCC;font-weight:400;margin:0 18px;}' +
+    '@keyframes pfScroll{to{transform:translateX(-50%);}}' +
+    '.pf-about{top:0;right:0;height:100vh;width:min(440px,94vw);pointer-events:auto;overflow-y:auto;padding:9vh 26px 40px;background:linear-gradient(90deg,rgba(13,48,80,0),rgba(13,48,80,.82) 22%);}' +
+    '.pf-about h2,.pf-door h2{font-family:Archivo,sans-serif;font-weight:900;text-transform:uppercase;line-height:.95;}' +
+    '.pf-about h2{font-size:34px;margin:10px 0 6px;}' +
+    '.pf-about h2 span{color:#4AABCC;}' +
+    '.pf-sub{font-size:13.5px;line-height:1.6;color:#B3D3E0;margin-bottom:20px;}' +
+    '.pf-world{border:1px solid rgba(179,211,224,.25);border-radius:14px;padding:16px 18px;margin-bottom:12px;background:rgba(30,91,138,.18);}' +
+    '.pf-world .no{font-family:Archivo,sans-serif;font-weight:900;font-size:11px;color:#4AABCC;letter-spacing:.2em;}' +
+    '.pf-world h3{display:inline;font-family:Archivo,sans-serif;font-weight:900;font-style:italic;font-size:19px;text-transform:uppercase;margin-left:8px;}' +
+    '.pf-world .runs{font-size:12px;font-weight:600;color:#B3D3E0;margin-top:5px;}' +
+    '.pf-world .runs b{color:#4AABCC;}' +
+    '.pf-world p{font-size:12.5px;line-height:1.55;color:#B3D3E0;margin-top:7px;}' +
+    '.pf-skill{border-top:1px solid rgba(179,211,224,.2);padding:15px 2px;}' +
+    '.pf-skill h4{font-family:Archivo,sans-serif;font-weight:800;font-size:17px;text-transform:uppercase;}' +
+    '.pf-skill h4 b{color:#4AABCC;margin-right:10px;font-size:13px;}' +
+    '.pf-skill p{font-size:13px;color:#B3D3E0;line-height:1.55;margin-top:4px;}' +
+    '.pf-door{left:5vw;top:12vh;max-width:88vw;}' +
+    '.pf-door h2{font-size:clamp(40px,6.5vw,88px);margin-top:12px;}' +
+    '.pf-door h2 span{display:block;color:transparent;-webkit-text-stroke:1.5px #4AABCC;}' +
+    '.pf-door p{margin-top:14px;font-size:14.5px;color:#B3D3E0;}' +
+    '@media (max-width:640px){.pf-intro{display:none;}.pf-about{background:rgba(13,48,80,.88);}}';
   document.head.appendChild(css);
-  function isWork(){ return /(^|\/)work(\/|$)/.test(location.pathname); }
+  function path(){ return location.pathname; }
+  function isWork(){ return /(^|\/)work(\/|$)/.test(path()); }
+  function isAbout(){ return /(^|\/)about(\/|$)/.test(path()); }
+  function isContact(){ return /(^|\/)contact(\/|$)/.test(path()); }
+  function isHome(){ return !isWork() && !isAbout() && !isContact(); }
+  function buildHero(){
+    var wrap = document.createElement('div');
+    var h = document.createElement('div');
+    h.className = 'pf-layer pf-hero';
+    h.innerHTML = '<div class="pf-label">( Portfolio — Merugu Dinesh Kumar )</div>' +
+      '<div class="pf-name">Merugu<span>Dinesh</span></div>' +
+      '<div class="pf-role">AI Builder <em>&amp;</em> Vibe Coder</div>' +
+      '<p class="pf-intro">An MCA graduate building full-stack apps, backend systems and AI agents that do real jobs — like IMPERIUM, my multi-agent command system.</p>';
+    var tools = ['Python','FastAPI','React','TypeScript','Next.js','PostgreSQL','Supabase','Selenium','GitHub','Postman'];
+    var seq = tools.map(function(t){ return t + '<b>✦</b>'; }).join(' ');
+    var strip = document.createElement('div');
+    strip.className = 'pf-layer pf-strip';
+    strip.innerHTML = '<span class="tk">' + seq + ' ' + seq + '</span>';
+    wrap.appendChild(h); wrap.appendChild(strip);
+    document.body.appendChild(wrap);
+    return wrap;
+  }
+  function buildAbout(){
+    var worlds = [
+      ['01','Agent Drift','<b>1,329</b> Runs','My personality in system form. One command, many agents, everything moving.'],
+      ['02','Anime','<b>2.1K</b> Hours Watched','Where I recharge — and where I learned to level up. Keep going, keep rising, no matter where you start.'],
+      ['03','Chess','<b>1.2K</b> Games Played','How my mind works. Calm on the surface, ten moves deep underneath — patience beats panic.'],
+      ['04','Artificial Intelligence','<b>Daily</b> Practice','The core of who I am. Not just using AI — building systems that think with me.'],
+      ['05','AI Automation Tools','<b>Always</b> Running','My answer to boring work: if it repeats, a bot should do it. Speed is the standard.']
+    ];
+    var skills = [
+      ['01','Backend Engineering','FastAPI & Spring Boot APIs — quick, typed, documented.'],
+      ['02','Full-Stack Web Apps','React, TypeScript and Next.js, front to back.'],
+      ['03','AI-Assisted Development','LLM applications and multi-agent systems that do real work.'],
+      ['04','Automation','Selenium browser automation that does the boring work.']
+    ];
+    var el = document.createElement('div');
+    el.className = 'pf-layer pf-about';
+    el.innerHTML = '<div class="pf-label">( Area of Interest )</div><h2>My worlds,<br><span>my reasons</span></h2>' +
+      '<p class="pf-sub">Five interests, one person — the worlds I live in when I am not building.</p>' +
+      worlds.map(function(w){ return '<div class="pf-world"><span class="no">' + w[0] + ' · LAB</span><h3>' + w[1] + '</h3><div class="runs">' + w[2] + '</div><p>' + w[3] + '</p></div>'; }).join('') +
+      '<div class="pf-label" style="margin-top:26px;">( Skillset )</div><h2>What I can<br><span>build for you</span></h2>' +
+      skills.map(function(s){ return '<div class="pf-skill"><h4><b>' + s[0] + '</b>' + s[1] + '</h4><p>' + s[2] + '</p></div>'; }).join('');
+    document.body.appendChild(el);
+    return el;
+  }
+  function buildDoor(){
+    var el = document.createElement('div');
+    el.className = 'pf-layer pf-door';
+    el.innerHTML = '<div class="pf-label">( Leave your details )</div><h2>Open<span>the door</span></h2>' +
+      '<p>Write: dinesh.merugu.kumar@gmail.com · Call / WhatsApp: +91 93983 59538</p>';
+    document.body.appendChild(el);
+    return el;
+  }
   function sync(){
     var on = isWork();
     if (on && !flowFrame) {
@@ -60,6 +150,12 @@
       document.body.appendChild(flowFrame);
     }
     if (flowFrame) flowFrame.style.display = on ? 'block' : 'none';
+    if (isHome() && !heroEl) heroEl = buildHero();
+    if (heroEl) heroEl.style.display = isHome() ? 'block' : 'none';
+    if (isAbout() && !aboutEl) aboutEl = buildAbout();
+    if (aboutEl) aboutEl.style.display = isAbout() ? 'block' : 'none';
+    if (isContact() && !doorEl) doorEl = buildDoor();
+    if (doorEl) doorEl.style.display = isContact() ? 'block' : 'none';
   }
   setInterval(sync, 400);
   addEventListener('popstate', sync);
